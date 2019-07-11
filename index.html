@@ -6,7 +6,7 @@
 	<meta charset="utf-8">
 	<!-- <base href="/"> -->
 
-	<title>OptimizedHTML 4</title>
+	<title>Элитная недвижимость в центре москвы</title>
 	<meta name="description" content="">
 
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -14,7 +14,7 @@
 
 	<!-- Template Basic Images Start -->
 	<meta property="og:image" content="path/to/image.jpg">
-	<link rel="icon" href="img/favicon/favicon.ico">
+	<link rel="icon" type="image/png" href="img/favicon/favicon.png">
 	<link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon-180x180.png">
 	<!-- Template Basic Images End -->
 
@@ -33,81 +33,120 @@
 	<!-- First section -->
 	<div class="navbar">
 		<div class="container">
-			<div class="row flex-wrap align-items-center">
-				<div class="col-2">
+			<div class="row flex-wrap align-items-center justify-content-between">
+				<div class="col-xl-2 col-sm-5 col-6">
 					<img class="logo" src="img/_src/logo.svg"
-
 					alt="Willgrade">
 				</div>
-
-				<div class="col-8">
+				<div class="col-xl-8 navbar-menu">
 					<ul class="d-flex justify-content-between">
-						<li><a href="">Архитектура</a></li>
-						<li><a href="">Особенности</a></li>
-						<li><a href="">Инфраструктура</a></li>
-						<li><a href="">Планировки и цены</a></li>
-						<li><a href="">Ипотека и рассрочка</a></li>
-						<li><a class="callback_btn" href="">обратный звонок</a></li>
+						<li><a href="#">Архитектура</a></li>
+						<li><a href="#">Особенности</a></li>
+						<li><a href="#">Инфраструктура</a></li>
+						<li><a href="#price">Планировки и цены</a></li>
+						<li><a href="#">Ипотека и рассрочка</a></li>
+						<li><a class="callback_btn popup-open" href="#" id="open-12">обратный звонок</a></li>
 					</ul>
 				</div>
-				<div class="col-2 d-flex flex-column justify-content-between">
+				<div class="d-xl-none menu-open">
+					<img src="img/_src/menu-mobile.svg" alt="">
+					<img src="img/_src/menu-mobile-close.svg" alt="">
+				</div>
+
+				<div class="col-xl-2 col-5 flex-column justify-content-between d-none d-md-flex">
 					<div class="work d-flex flex-row justify-content-end">
 						<span>в сети</span>
 						<p>Работаем для вас 24/7</p>
 					</div>
 					<a class="phone d-flex flex-row justify-content-end" href="tel:+74996475999">+7 499 647 59 99</a>
 					<div class="work d-flex flex-row justify-content-end">
-						<a href="">whatsapp </a><a href="">whatsapp</a>
-
+						<a href="https://wa.me/79234567890"><img src="./img/_src/whatsapp.svg" alt=""></a>
+						<a href="https://telegram.me/79652049827"><img src="./img/_src/telegram.svg" alt=""></a>
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
+	<!-- navbar-movile -->
+	<div class="navbar-wrapper">
+		<div class="navbar-mobile">
+			<div class="d-xl-none menu-open">
+				<img src="img/_src/menu-mobile.svg" alt="">
+				<img src="img/_src/menu-mobile-close.svg" alt="">
+			</div>
+			<div class="navbar-mobile-logo">
+				<img class="logo" src="img/_src/logo.svg"
+				alt="Willgrade">
+			</div>
+			<div class="navbar-menu-mobile">
+				<ul class="d-flex flex-column">
+					<li><a href="#">Архитектура</a></li>
+					<li><a href="#">Особенности</a></li>
+					<li><a href="#">Инфраструктура</a></li>
+					<li><a href="#price">Планировки и цены</a></li>
+					<li><a href="#">Ипотека и рассрочка</a></li>
+				</ul>
+			</div>
+			<div class="d-flex flex-column justify-content-between">
+				<div class="work d-flex flex-row">
+					<span>в сети</span>
+					<p>Работаем для вас 24/7</p>
+				</div>
+				<a class="phone d-flex flex-row" href="tel:+74996475999">+7 499 647 59 99</a>
+				<div class="work d-flex flex-row">
+					<a href="#">whatsapp </a><a href="#">whatsapp</a>
+				</div>
+			</div>
+			<a class="callback_btn popup-open" href="#" id="open-12">Заказать консультацию</a>
+		</div>
+	</div>
 	<div class="container first d-flex flex-column justify-content-center">
 		<div class="row">
-			<div class="col-3">
+			<div class="col-md-3 col-12">
 				<h4 class="light">Жилые кварталы для тех, кто&nbsp;умеет приумножать капитал</h4>
 			</div>
-			<div class="col-8">
+			<div class="col-lg-8 col-md-9 col-12">
 				<h1>3 высотных комплекса, цена&nbsp;на&nbsp;которые взлетит до&nbsp;небес</h1>
 			</div>
 		</div class="row">
 		<div class="row">
-			<div class="col-3 d-flex flex-column align-items-start little">
-
+			<div class="col-3 flex-column align-items-start little d-none d-sm-flex">
 				<h4 class="disable">Небоскребы Москвы</h4>
 				<img class="arrow-down blind" src="img/@1x/arrow-down.svg">
 			</div>
-			<div class="col-3 d-flex flex-column align-items-start little">
+			<div class="col-lg-3 col-sm-8 col-12 d-flex flex-column align-items-start little">
+				<a href="#link1">
 				<img class="img-responsive"
 				src="img/@1x/img-min-capital.png"
 				srcset="img/@1x/img-min-capital.png 1x, img/@2x/img-min-capital.png 2x"
 				alt="Capital Towers">
-				<a href="">Capital Towers</a>
-				<img class="arrow-down" src="img/@1x/arrow-down.svg">
+				</a>
+				<a href="#link1">Capital Towers</a>
 			</div>
-			<div class="col-3 d-flex flex-column align-items-start little">
+			<div class="col-lg-3 col-sm-8 col-12 d-flex flex-column align-items-start little">
+				<a href="#link2">
 				<img class="img-responsive"
 				src="img/@1x/img-min-newa.png"
 				srcset="img/@1x/img-min-newa.png 1x, img/@2x/img-min-newa.png 2x"
 				alt="Neva Towers">
-				<a href="">Neva Towers</a>
-				<img class="arrow-down" src="img/@1x/arrow-down.svg">
+				</a>
+				<a href="#link2">Neva Towers</a>
 			</div>
-			<div class="col-3 d-flex flex-column align-items-start little">
+			<div class="col-lg-3 col-sm-8 col-12 d-flex flex-column align-items-start little">
+				<a href="#link3">
 				<img class="img-responsive"
 				src="img/@1x/img-min-wings.png"
 				srcset="img/@1x/img-min-wings.png 1x, img/@2x/img-min-wings.png 2x"
 				alt="Крылья">
-				<a href="">Крылья</a>
-				<img class="arrow-down" src="img/@1x/arrow-down.svg">
+				</a>
+				<a href="#link3">Крылья</a>
 			</div>
 		</div>
 	</div>
 
 	<div id="link1" class="info-block second">
 		<div class="container-fluid">
+			<h3 class="d-md-none">Capital Towers</h3>
 			<div class="swiper-container">
 				<div class="swiper-wrapper">
 					<div class="swiper-slide" ><img class="img-fullscreen"
@@ -149,7 +188,7 @@
 				<!-- Add Pagination -->
 				<div class="container pagination">
 					<div class="row d-flex justify-content-end ">
-						<div class="col-2">
+						<div class="col-md-2 col-12">
 							<div class="swiper-pagination justify-content-center align-items-center"></div>
 							<div class="swiper-button-next"></div>
 							<div class="swiper-button-prev"></div>
@@ -160,50 +199,57 @@
 		</div>
 
 		<div class="row">
-			<div class="col-3"></div>
-			<div class="col-9">
+			<div class="col-xl-3 display-none"></div>
+			<div class="col-xl-9 col-12">
 				<div class="row">
-					<div class="col-9 d-flex">
-						<div class="col-8">
-							<h3>Capital Towers</h3>
+					<div class="col-xl-9 col-12 d-flex">
+						<div class="col-lg-8 col-md-7 col-12">
+							<h3 class="d-none d-md-block">Capital Towers</h3>
 							<p>Пожалуй, это самый интересный проект в данной местности, идеально подходящий для инвестиций и для проживания . В таком месте найти именно квартиру, а не апартаменты, довольно проблематично, а тут их целых три башни! Идея с собственным парком прекрасна. <br> <br>
 								На сегодняшний день застройщик только заканчивает строительство стилобата и выходит на уровень первых этажей, поэтому с уверенностью можно сказать , что стоимость квартир здесь будет расти с каждым кварталом.</p>
 							</div>
-							<div class="col-4 d-flex flex-column align-items-center">
+							<div class="col-lg-4 col-md-5 col-12 flex-column align-items-center d-none d-md-flex">
 								<img class="img-fullscreen"
 								src="img/@1x/form-capital.png"
 								srcset="img/@1x/form-capital.png 1x, img/@2x/form-capital.png 2x"
 								alt="Start HTML5 Template">
-								<a href="" class="button-main">Скачать&nbsp;презентацию&nbsp;комплекса</a>
+								<a href="#" class="button-main popup-open" id='open-1'>Скачать презентацию комплекса</a>
 								<p class="size">PDF, 12 mb</p>
 							</div>
 						</div>
 					</div>
 					<div class="row border bullets">
-						<div class="col-9 d-flex flex-wrap">
-							<div class="col-4">
+						<div class="col-lx-9 col-12 d-flex flex-wrap">
+							<div class="col-md-4 col-12">
 								<h4>Идеальное <br>расположение</h4>
 								<p>В 2 минутах от метро «Выставочная»</p>
 							</div>
-							<div class="col-4">
+							<div class="col-md-4 col-12">
 								<h4>Только <br>«вышли из земли»</h4>
 								<p>Сдача домов — 2 квартал 2019 года</p>
 							</div>
-							<div class="col-4">
+							<div class="col-md-4 col-12">
 								<h4>Статус жилья — <br>квартиры</h4>
 								<p>В башнях находятся только квартиры</p>
 							</div>
-							<div class="col-4">
+							<div class="col-md-4 col-12">
 								<h4>Рядом <br>большой парк</h4>
 								<p>Парк «Красная Пресня» в минуте ходьбы от комплекса</p>
 							</div>
 
-							<div class="col-4">
+							<div class="col-md-4 col-12">
 								<h4>Лучшие видовые <br>характеристики</h4>
 								<p>Рядом невозможно возвести высотные строения</p>
 							</div>
-
 						</div>
+					</div>
+					<div class="col-sm-8 col-12 flex-column align-items-center d-md-none m-a t-a-center">
+						<img class="img-fullscreen"
+						src="img/@1x/form-capital.png"
+						srcset="img/@1x/form-capital.png 1x, img/@2x/form-capital.png 2x"
+						alt="Start HTML5 Template">
+						<a href="#" class="button-main popup-open" id='open-1'>Скачать презентацию комплекса</a>
+						<p class="size">PDF, 12 mb</p>
 					</div>
 				</div>
 			</div>
@@ -211,6 +257,7 @@
 
 		<div id="link2" class="info-block third">
 			<div class="container-fluid">
+				<h3  class="d-md-none">Neva Towers</h3>
 				<div class="swiper-container">
 					<div class="swiper-wrapper">
 						<div class="swiper-slide" ><img class="img-fullscreen"
@@ -257,7 +304,7 @@
 					<!-- Add Pagination -->
 					<div class="container pagination">
 						<div class="row d-flex justify-content-end ">
-							<div class="col-2">
+							<div class="col-md-2 col-12">
 								<div class="swiper-pagination justify-content-center align-items-center"></div>
 								<div class="swiper-button-next"></div>
 								<div class="swiper-button-prev"></div>
@@ -268,53 +315,61 @@
 			</div>
 
 			<div class="row">
-				<div class="col-3"></div>
-				<div class="col-9">
+				<div class="col-xl-3 display-none"></div>
+				<div class="col-xl-9 col-12">
 					<div class="row">
-						<div class="col-9 d-flex">
-							<div class="col-8">
-								<h3>Neva Towers</h3>
+						<div class="col-xl-9 col-12 d-flex">
+							<div class="col-lg-8 col-md-7 col-12">
+								<h3 class="d-none d-md-block">Neva Towers</h3>
 								<p>Сегодня Neva Towers — самый успешный проект на рынке недвижимости Москвы в сегменте премиум-класса по данным международного агентства недвижимости Savills. <br><br>
 									Башни Neva Towers на первый взгляд  мало чем отличаются от остальных небоскребов Москва Сити, но в тоже время имеют ряд существенных отличий, которые как нельзя лучше формируют инвестиционную привлекательность.</p>
 								</div>
-								<div class="col-4 d-flex flex-column align-items-center">
+								<div class="col-lg-4 col-md-5 col-12 flex-column align-items-center d-none d-md-flex">
 									<img class="img-fullscreen"
 									src="img/@1x/form-newa.png"
 									srcset="img/@1x/form-newa.png 1x, img/@2x/form-newa.png 2x"
 									alt="Start HTML5 Template">
-									<a href="" class="button-main">Скачать&nbsp;презентацию&nbsp;комплекса</a>
+									<a href="#" class="button-main popup-open" id="open-2">Скачать&nbsp;презентацию&nbsp;комплекса</a>
 									<p class="size">PDF, 12 mb</p>
 								</div>
 							</div>
 						</div>
 						<div class="row border bullets">
-							<div class="col-9 d-flex flex-wrap">
-								<div class="col-4">
+							<div class="col-xl-9 col-12 d-flex flex-wrap">
+								<div class="col-md-4 col-12">
 									<h4>Закрытая <br>территория</h4>
 									<p>На территории находится парк с панорамным бассейном</p>
 								</div>
-								<div class="col-4">
+								<div class="col-md-4 col-12">
 									<h4>Высокая степень <br>готовности</h4>
 									<p>Сдача проекта — 4 квартал 2019 года</p>
 								</div>
-								<div class="col-4">
+								<div class="col-md-4 col-12">
 									<h4>Удобная <br>инфраструктура</h4>
 									<p>Только для «СВОИХ»</p>
 								</div>
-								<div class="col-4">
+								<div class="col-md-4 col-12">
 									<h4>Перспектива <br>высокой аренды</h4>
 									<p>Возможность большого заработка на сдаче помещений и квартир</p>
 								</div>
 
-								<div class="col-4">
+								<div class="col-md-4 col-12">
 									<h4>Идеальное <br>расположение</h4>
 									<p>Вблизи Москва Сити, и в тоже время на удалении от шумной офисной жизни</p>
 								</div>
-								<div class="col-4">
+								<div class="col-md-4 col-12">
 									<h4>Низкая налоговая<br>ставка</h4>
 									<p>Всего 0,5%</p>
 								</div>
 							</div>
+						</div>
+						<div class="col-sm-8 col-12 flex-column align-items-center d-md-none m-a t-a-center">
+							<img class="img-fullscreen"
+							src="img/@1x/form-newa.png"
+							srcset="img/@1x/form-newa.png 1x, img/@2x/form-newa.png 2x"
+							alt="Start HTML5 Template">
+							<a href="#" class="button-main popup-open" id="open-2">Скачать&nbsp;презентацию&nbsp;комплекса</a>
+							<p class="size">PDF, 12 mb</p>
 						</div>
 					</div>
 				</div>
@@ -322,6 +377,7 @@
 
 			<div id="link3" class="info-block fourth">
 				<div class="container-fluid">
+					<h3 class="d-md-none">Крылья</h3>
 					<div class="swiper-container">
 						<div class="swiper-wrapper">
 							<div class="swiper-slide" ><img class="img-fullscreen"
@@ -359,7 +415,7 @@
 						<!-- Add Pagination -->
 						<div class="container pagination">
 							<div class="row d-flex justify-content-end ">
-								<div class="col-2">
+								<div class="col-md-2 col-12">
 									<div class="swiper-pagination justify-content-center align-items-center"></div>
 									<div class="swiper-button-next"></div>
 									<div class="swiper-button-prev"></div>
@@ -371,56 +427,64 @@
 				</div>
 
 				<div class="row">
-					<div class="col-3"></div>
-					<div class="col-9">
+					<div class="col-xl-3 display-none"></div>
+					<div class="col-xl-9 col-12">
 						<div class="row">
-							<div class="col-9 d-flex">
-								<div class="col-8">
-									<h3>Крылья</h3>
+							<div class="col-xl-9 col-12 d-flex">
+								<div class="col-lg-8 col-md-7 col-12">
+									<h3 class="d-none d-md-block">Крылья</h3>
 									<p>Престижный комплекс рядом с главным проспектом страны, с видом на МГУ и вблизи новой станции метро. <br><br>
 										Думаю, здесь можно дать краткое эмоциональное описание с перечислением главных преимуществ, чтобы сформировать общую картинку в голове покупателя и заложить первые семена сомнений выбора и интереса к сравнению.</p>
 									</div>
-									<div class="col-4 d-flex flex-column align-items-center">
+									<div class="col-lg-4 col-md-5 col-12 flex-column align-items-center d-none d-md-flex">
 										<img class="img-fullscreen"
 										src="img/@1x/form-wings.png"
 										srcset="img/@1x/form-wings.png 1x, img/@2x/form-wings.png 2x"
 										alt="Start HTML5 Template">
-										<a href="" class="button-main">Скачать&nbsp;презентацию&nbsp;комплекса</a>
+										<a href="#" class="button-main popup-open" id="open-3">Скачать&nbsp;презентацию&nbsp;комплекса</a>
 										<p class="size">PDF, 12 mb</p>
 									</div>
 								</div>
 							</div>
 							<div class="row bullets">
-								<div class="col-9 d-flex flex-wrap border">
-									<div class="col-4">
+								<div class="col-xl-9 col-12 d-flex flex-wrap border">
+									<div class="col-md-4 col-12">
 										<h4>Низкая цена на&nbsp;стадии&nbsp;фундамента</h4>
 										<p>Так как проект находится на начальной стадии, цена на данный момент является очень низкой</p>
 									</div>
-									<div class="col-4">
+									<div class="col-md-4 col-12">
 										<h4>Открытие метро <br>в 2021 году</h4>
 										<p>На территории комплекса планируется открытие новой станции метро</p>
 									</div>
-									<div class="col-4">
+									<div class="col-md-4 col-12">
 										<h4>Надежный <br>застройщик</h4>
 										<p>«Лидер Инвест» — московская девелоперская компания полного цикла</p>
 									</div>
-									<div class="col-4">
+									<div class="col-md-4 col-12">
 										<h4>Уникальная <br>архитектура</h4>
 										<p>Зеленые парки на крышах комплексов</p>
-										<div class="line-bottom"></div>
+										<div class="line-bottom d-none d-md-block"></div>
 									</div>
 
-									<div class="col-4">
+									<div class="col-md-4 col-12">
 										<h4>Удобное <br>расположение</h4>
 										<p>Юго-запад, МГУ, Мичуринский проспект</p>
-										<div class="line-bottom"></div>
+										<div class="line-bottom d-none d-md-block"></div>
 									</div>
-									<div class="col-4">
+									<div class="col-md-4 col-12">
 										<h4>Частная школа <br>на территории</h4>
 										<p>«Золотое Сечение»</p>
-										<div class="line-bottom"></div>
+										<div class="line-bottom d-none d-md-block"></div>
 									</div>
 								</div>
+							</div>
+							<div class="col-sm-8 col-12 flex-column align-items-center d-md-none m-a t-a-center">
+								<img class="img-fullscreen"
+								src="img/@1x/form-wings.png"
+								srcset="img/@1x/form-wings.png 1x, img/@2x/form-wings.png 2x"
+								alt="Start HTML5 Template">
+								<a href="#" class="button-main popup-open" id="open-3">Скачать&nbsp;презентацию&nbsp;комплекса</a>
+								<p class="size">PDF, 12 mb</p>
 							</div>
 						</div>
 					</div>
@@ -428,27 +492,27 @@
 
 				<div class="container fifth">
 					<div class="row">
-						<div class="col-8">
+						<div class="col-lg-8 col-12">
 							<h2>Проекты мирового уровня, отвечающие всем <b>стандартам качества</b> современной жизни</h2>
 						</div>
 					</div>
 					<div class="row">
-						<div class="col-3 d-flex align-items-end">
+						<div class="col-3 align-items-end d-none d-xl-flex">
 							<h4 class="thin">Потрясающая атмосфера роскоши центральных лобби
 								и фасадов с отделкой из натуральных материалов</h4>
 							</div>
-							<div class="col-9 d-flex flex-wrap">
-								<div id="row1" class="col-4">
+							<div class="col-xl-9 col-12 d-flex flex-wrap">
+								<div id="row0" class="col-md-4 col-12 p-0">
 									<h4>Skuratov Architects</h4>
 									<p class="grey">Capital Towers</p>
 									<p>Три башни комплекса выполнены в стиле минимализма, а к конструкции применен новаторский подход: уменьшение ширины до 21 метра, устремление ввысь и облегчение корпусов за счет использования платинового стекла выделяют проект и формируют его неповторимый облик.</p>
 								</div>
-								<div id="row2" class="col-4">
+								<div id="row1" class="col-md-4 col-12 p-0">
 									<h4>Speech / HOK / Fxfowle</h4>
 									<p class="grey">Neva Towers</p>
 									<p>Уникальные особенности проекта — это обширные для центра города зеленые пространства, в том числе частный парк с открытым бассейном для владельцев апартаментов, расположенный на крыше 4-х этажного стилобата. Последние 5 лет в Европе и США архитекторы создают парки и зеленые зоны на крышах небоскребов, создатели Neva Towers привнесли эту практику в Москву.</p>
 								</div>
-								<div id="row3" class="col-4">
+								<div id="row2" class="col-md-4 col-12 p-0">
 									<h4>ABD Architects</h4>
 									<p class="grey">ЖК Крылья</p>
 									<p>Одна из ведущих московских мастерских, основана в 2006 году Андреем Романовым и Екатериной Кузнецовой. Название АDМ — «Архитектурный Диалог с Мегаполисом» отражает основное направление нашей деятельности. Мы специализируемся на проектировании зданий для современного города.</p>
@@ -457,40 +521,40 @@
 									<div class="swiper-container">
 										<div class="swiper-wrapper">
 											<div class="swiper-slide" ><img class="img-fullscreen"
-												src="img/@1x/img-3-1.jpg"
-												srcset="img/@1x/img-3-1.jpg 1x, img/@2x/img-3-1.jpg 2x"
+												src="img/@1x/img-4-1.jpg"
+												srcset="img/@1x/img-4-1.jpg 1x, img/@2x/img-4-1.jpg 2x"
 												alt="Кэпитал тауэрс">
 											</div>
 											<div class="swiper-slide" ><img class="img-fullscreen"
-												src="img/@1x/img-3-2.jpg"
-												srcset="img/@1x/img-3-2.jpg 1x, img/@2x/img-3-2.jpg 2x"
+												src="img/@1x/img-4-2.jpg"
+												srcset="img/@1x/img-4-2.jpg 1x, img/@2x/img-4-2.jpg 2x"
 												alt="Кэпитал тауэрс">
 											</div>
 											<div class="swiper-slide" ><img class="img-fullscreen"
-												src="img/@1x/img-3-3.jpg"
-												srcset="img/@1x/img-3-3.jpg 1x, img/@2x/img-3-3.jpg 2x"
+												src="img/@1x/img-4-3.jpg"
+												srcset="img/@1x/img-4-3.jpg 1x, img/@2x/img-4-3.jpg 2x"
 												alt="Кэпитал тауэрс">
 											</div>
 											<div class="swiper-slide" ><img class="img-fullscreen"
-												src="img/@1x/img-3-4.jpg"
-												srcset="img/@1x/img-3-4.jpg 1x, img/@2x/img-3-4.jpg 2x"
+												src="img/@1x/img-4-4.jpg"
+												srcset="img/@1x/img-4-4.jpg 1x, img/@2x/img-4-4.jpg 2x"
 												alt="Кэпитал тауэрс">
 											</div>
 											<div class="swiper-slide" ><img class="img-fullscreen"
-												src="img/@1x/img-3-5.jpg"
-												srcset="img/@1x/img-3-5.jpg 1x, img/@2x/img-3-5.jpg 2x"
+												src="img/@1x/img-4-5.jpg"
+												srcset="img/@1x/img-4-5.jpg 1x, img/@2x/img-4-5.jpg 2x"
 												alt="Кэпитал тауэрс">
 											</div>
 											<div class="swiper-slide" ><img class="img-fullscreen"
-												src="img/@1x/img-3-6.png"
-												srcset="img/@1x/img-3-6.jpg 1x, img/@2x/img-3-6.jpg 2x"
+												src="img/@1x/img-4-6.png"
+												srcset="img/@1x/img-4-6.jpg 1x, img/@2x/img-4-6.jpg 2x"
 												alt="Кэпитал тауэрс">
 											</div>
 										</div>
 										<!-- Add Pagination -->
 										<div class="container pagination">
 											<div class="row d-flex justify-content-end ">
-												<div class="col-4">
+												<div class="col-md-4 col-12">
 													<div class="swiper-pagination justify-content-center align-items-center"></div>
 													<div class="swiper-button-next"></div>
 													<div class="swiper-button-prev"></div>
@@ -502,134 +566,159 @@
 							</div>
 						</div>
 					</div>
-					<div class="container sixth">
+					<div class="form-taxi d-none d-sm-block">
+						<div class="container">
+							<div class="row">
+								<div class="col-6 right d-none d-md-flex">
+									<img class="img-fullscreen"
+									src="img/@1x/car.png"
+									srcset="img/@1x/car.png 1x, img/@2x/car.png 2x"
+									alt="Планировки">
+								</div>
+								<div class="col-md-6 col-12 d-flex flex-column left">
+									<h2>Такси до объекта</h2>
+									<p>Хотите  лично посмотреть на новостройки? Оставьте заявку и специалист WillGrade организует вам обзорную экскурсию с комфортабельным трансфером из любой точки Москвы в удобное время. <br> <b>Услуга бесплатна.</b></p>
+									<div class="row">
+										<div class="col-7 d-flex check-box flex-column flex-md-row">
+											<div class="d-flex">
+												<input id="check-1" type="checkbox" name="check">
+												<label for="check-1">Capital Towers</label>
+											</div>
+											<div class="d-flex">
+												<input id="check-2" type="checkbox" name="check">
+												<label for="check-2">Neva Towers</label>
+											</div>
+											<div class="d-flex">
+												<input id="check-3" type="checkbox" name="check">
+												<label for="check-3">Крылья</label>
+											</div>
+										</div>
+										<div class="col-lg-6 col-md-12 col-sm-8 col-12">
+											<input class="text-input" type="text" placeholder="Номер телефона" pattern="[\+]\d{1}\s[\(]\d{3}[\)]\s\d{3}[\-]\d{2}[\-]\d{2}" minlength="18" maxlength="18">
+											<a href="#" class="button popup-open" id="open-4">Заказать поездку</a>
+										</div>
+										<div class="col-1"></div>
+										<div class="col-1 d-none d-md-block"></div>
+										<div class="col-12 d-none d-md-block">
+											<p>Подтверждая действие на странице вы соглашаетесь <br>с <a href="#">политикой конфиденциальности</a></p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="container sixth overflow-hidden">
 						<div class="row">
-							<div class="col-8">
+							<div class="col-lg-8 col-12">
 								<h2>Каждый комплекс имеет <b>неповторимый характер</b> и прекрасен по-своему</h2>
 							</div>
 						</div>
-						<div class="row">
-							<div class="col-3 d-flex flex-column justify-content-end first-column">
-								<h4>Особенности и преимущества жилых комплектсов</h4>
-								<p>Подземный паркинг</p>
-								<br>
-								<p>Панорамны окна</p>
-								<br>
-								<p>Отделка</p>
-								<br>
-								<p>Озеленение</p>
-								<br>
-								<p>Фитнес и спорт</p>
-								<br><br>
-								<p>Бассейн</p>
-								<br>
-								<br>
-								<div class="main-text"></div>
-							</div>
-
-							<div id="column1" class="col-3 table-column">
-								<h4>Capital Towers</h4>
-								<p class="little">Capital Group</p>
-								<a href="">Краснопресненская набережная, вл.14</a>
-								<br>
-								<br>
-								<p>3 башни, 65 этажей <br>270 квартир</p>
-								<div class="line-bottom"></div>
-								<br>
-								<p>Премиум-класс <br>от 430 000 м²</p>
-								<div class="line-bottom"></div>
-								<br>
-								<p>3 станции метро <br>10 минут до ТТК <br>1 станция МЦК <br>3 минуты до «Афимолл Сити»</p>
-								<br>
-								<br>
-								<br>
-								<br>
-								<p>700 машиномест</p>
-								<br>
-								<p>высота 4 метра</p>
-								<br>
-								<p>чистовая / черновая</p>
-								<br>
-								<p>парк у дома</p>
-								<br>
-								<p>фитнес-клуб «World Class» с теннисным кортом на территории комплекса</p>
-								<br>
-								<p>отсутствует</p>
-								<br>
-								<br>
-								<div class="main-text">
-									<p>Единственный комплекс небоскребов с&nbsp;квартирами , собственной закрытая территория и парк у дома, низкая степень готовности,  лучшие виды, надежный застройщик</p>
+						<div class="d-sm-none">
+							<span class="swipe" id="swipe1"><img src="./img/_src/swipe.svg" alt=""></span>
+						</div>
+						<div class="sixth-wrapper">
+							<div class="sixth-row">
+								<div class="row row-column">
+									<h4></h4>
+									<h4>Capital Towers</h4>
+									<h4>Neva Towers</h4>
+									<h4>Крылья</h4>
 								</div>
-							</div>
-							<div id="column2" class="col-3 table-column">
-								<h4>Neva Towers</h4>
-								<p class="little">Renaissance Development</p>
-								<a href="">1-ый Красногвардейский проезд, вл.17-18</a>
-								<br>
-								<br>
-								<p>2 башни высотой 63 и 77 этажей <br>270 апартаментов</p>
-								<div class="line-bottom"></div>
-								<br>
-								<p>Премиум-класс <br>от 440 000 м²</p>
-								<div class="line-bottom"></div>
-								<br>
-								<p>3 станции метро <br>2 минуты до ТТК <br>1 станция МЦК <br>3 минуты до «Афимолл Сити»</p>
-								<br>
-								<br>
-								<br>
-								<br>
-								<p>350 машиномест</p>
-								<br>
-								<p>высота 4,5 метра</p>
-								<br>
-								<p>чистовая</p>
-								<br>
-								<p>парк с открытым бассейном</p>
-								<br>
-								<p>фитнес-клуб «World Class», в 5 минутах ходьбы от комплекса</p>
-								<br>
-								<p>в 3 минутах ходьбы от комплекса</p>
-								<br>
-								<br>
-								<div class="main-text">
-									<p>Низкая налоговая ставка 0,5%. Своя закрытая инфраструктура, обособленность от офисной части МС — комфортное проживание  с семьёй, перспектива высокой арендной стоимости ~ 250 000 / мес., высокая степень готовности</p>
+								<div class="row row-column">
+									<p class="little"></p>
+									<p class="little">Capital Group</p>
+									<p class="little">Renaissance Development</p>
+									<p class="little">Лидер Инвест</p>
 								</div>
-							</div>
-							<div id="column3" class="col-3 table-column">
-								<h4>Крылья</h4>
-								<p class="little">Лидер Инвест</p>
-								<a href="">ул. Лобачевского 120</a>
-								<br>
-								<br>
-								<p>3 башни высотой 15 и 51 этажей <br>680 квартир</p>
-								<div class="line-bottom"></div>
-								<br>
-								<p>Бизнес класс <br>от 186 000 м²</p>
-								<div class="line-bottom"></div>
-								<br>
-								<p>1 станция метро <br>20 минут до ТТК <br>
+								<div class="row row-column">
+									<a href="#"></a>
+									<a href="#">Краснопресненская набережная, вл.14</a>
+									<a href="#">1-ый Красногвардейский проезд, вл.17-18</a>
+									<a href="#">ул. Лобачевского 120</a>
 									<br>
 									<br>
-								</p>
-								<br>
-								<br>
-								<br>
-								<br>
-								<p>450 машиномест</p>
-								<br>
-								<p>отсутствуют</p>
-								<br>
-								<p>черновая</p>
-								<br>
-								<p>ботанический сад МГУ</p>
-								<br>
-								<p>фитнес-клуб «World Class» <br>на территории</p>
-								<br>
-								<p>на территории</p>
-								<br>
-								<br>
-								<div class="main-text">
-									<p>Семейный ЖК, низкая цена на котловане, открытие метро через 2 года, очень интересная архитектура, отличный район</p>
+								</div>
+								<div class="row row-column line-border">
+									<p></p>
+									<p>3 башни, 65 этажей <br>270 квартир</p>
+									<p>2 башни высотой 63 и 77 этажей <br>270 апартаментов</p>
+									<p>3 башни высотой 15 и 51 этажей <br>680 квартир</p>
+								</div>
+								<div class="row row-column line-border">
+									<p></p>
+									<p>Премиум-класс <br>от 430 000 м²</p>
+									<p>Премиум-класс <br>от 440 000 м²</p>
+									<p>Бизнес класс <br>от 186 000 м²</p>
+								</div>
+								<div class="row row-column">
+									<p></p>
+									<p>3 станции метро <br>10 минут до ТТК <br>1 станция МЦК <br>3 минуты до «Афимолл Сити»</p>
+									<p>3 станции метро <br>2 минуты до ТТК <br>1 станция МЦК <br>3 минуты до «Афимолл Сити»</p>
+									<p>1 станция метро <br>20 минут до ТТК <br></p>
+									<br>
+									<br>
+									<br>
+									<br>
+								</div>
+								<div class="row row-column d-none d-sm-flex">
+									<h4>Особенности и преимущества жилых комплектсов</h4>
+									<h4></h4>
+									<h4></h4>
+									<h4></h4>
+								</div>
+								<div class="row d-md-none">
+									<div class="col">
+										<h4>Особенности и преимущества <br>жилых комплектсов</h4>
+										<br>
+									</div>
+								</div>
+								<div class="row row-column">
+									<p>Подземный паркинг</p>
+									<p>700 машиномест</p>
+									<p>350 машиномест</p>
+									<p>450 машиномест</p>
+									<br>
+								</div>
+								<div class="row row-column">
+									<p>Панорамны окна</p>
+									<p>высота 4 метра</p>
+									<p>высота 4,5 метра</p>
+									<p>отсутствуют</p>
+								</div>
+								<div class="row row-column">
+									<p>Отделка</p>
+									<p>чистовая / черновая</p>
+									<p>чистовая</p>
+									<p>черновая</p>
+									<br>
+								</div>
+								<div class="row row-column">
+									<p>Озеленение</p>
+									<p>парк у дома</p>
+									<p>парк с открытым бассейном</p>
+									<p>ботанический сад МГУ</p>
+									<br>
+								</div>
+								<div class="row row-column">
+									<p>Фитнес и спорт</p>
+									<p>фитнес-клуб «World Class» с теннисным кортом на территории комплекса</p>
+									<p>фитнес-клуб «World Class», в 5 минутах ходьбы от комплекса</p>
+									<p>фитнес-клуб «World Class» <br>на территории</p>
+									<br>
+								</div>
+								<div class="row row-column">
+									<p>Бассейн</p>
+									<p>отсутствует</p>
+									<p>в 3 минутах ходьбы от комплекса</p>
+									<p>на территории</p>
+									<br>
+									<br>
+								</div>
+								<div class="row row-column">
+									<p><b></b></p>
+									<p><b>Единственный комплекс небоскребов с&nbsp;квартирами , собственной закрытая территория и парк у дома, низкая степень готовности,  лучшие виды, надежный застройщик</b></p>
+									<p><b>Низкая налоговая ставка 0,5%. Своя закрытая инфраструктура, обособленность от офисной части МС — комфортное проживание  с семьёй, перспектива высокой арендной стоимости ~ 250 000 / мес., высокая степень готовности</b></p>
+									<p><b>Семейный ЖК, низкая цена на котловане, открытие метро через 2 года, очень интересная архитектура, отличный район</b></p>
 								</div>
 							</div>
 						</div>
@@ -641,23 +730,38 @@
 
 					<div class="container eights">
 						<div class="row">
-							<div class="col-8">
-								<h2><b>Планировки</b> и цены</h2>
+							<div class="col-md-8 col-12">
+								<h2 id='price'><b>Планировки</b> и цены</h2>
 								<h4>Основные планировочные решения представленных комплексов. <br>Выберите для себя наиболее подходящее</h4>
 							</div>
 						</div>
+						<div class="container d-md-none">
+							<div class="row">
+								<span class="swipe" id="swipe2"><img src="./img/_src/swipe.svg" alt=""></span>
+							</div>
+						</div>
 						<div class="row justify-content-end">
-							<div class="col-9">
-								<menu class="eights-head d-flex">
-									<li><a class="active" href="#" onclick="return(false)">1-комнатные</a></li>
-									<li><a href="#" onclick="return(false)">2-комнатные</a></li>
-									<li><a href="#" onclick="return(false)">3-комнатные</a></li>
-									<li><a href="#" onclick="return(false)">Пентхаусы и топ-квартиры</a></li>
+							<div class="col-md-9 col-12 d-flex flex-column order-2">
+								<span class="eights-head-selected d-md-none">1-комнатные</span>
+								<menu class="eights-head d-none d-md-flex flex-column flex-md-row">
+									<li><a id='btn-room-1' class="active" href="#" onclick="return(false)">1-комнатные</a></li>
+									<li><a id='btn-room-2' href="#" onclick="return(false)">2-комнатные</a></li>
+									<li><a id='btn-room-3' href="#" onclick="return(false)">3-комнатные</a></li>
+									<li><a id='btn-room-4' href="#" onclick="return(false)">Пентхаусы и топ-квартиры</a></li>
 								</menu>
 							</div>
-							<div class="col-12 eights-content">
-								<div class="row">
-									<div class="col-3 d-flex flex-column">
+							<div class="col-12 d-md-none overflow-hidden order-1">
+								<div class="eights-head-wrapper overflow-auto">
+									<div class="eights-head-mobile d-flex">
+										<a id='complex-1' class="complex-item" href="#" onclick="return(false)">Сapital Towers</a>
+										<a id='complex-2' class="complex-item active" href="#" onclick="return(false)">Neva Towers</a>
+										<a id='complex-3' class="complex-item" href="#" onclick="return(false)">Крылья</a>
+									</div>
+								</div>
+							</div>
+							<div class="col-12 eights-content order-3">
+								<div class="row justify-content-md-end">
+									<div class="col-3 flex-column d-none d-md-flex">
 										<div id="complex-1" class="complex-item d-flex">
 											<img src="./img/_src/capital-slider.svg" alt="">
 											<img src="./img/_src/capital-slider-active.svg" alt="">
@@ -671,24 +775,52 @@
 											<img src="./img/_src/wings-slider-active.svg" alt="">
 										</div>
 									</div>
-									<div class="col-6 eights-content-capital">
-										<div class="complex-slider complex-slider-0 active">
+
+									<div class="col-lg-6 col-md-9 col-sm-12 eights-content-capital">
+										<div id="complex-slider0-0" class="complex-slider">
 											<div class="swip-container">
 												<div class="swiper-wrapper">
 													<div class="swiper-slide">
-														<img src="./img/_src/rt_29_38_4.png" alt="">
+														<img class="d-none d-md-block" src="./img/_src/rt_29_38_4.png" alt="">
+														<div class="slider-content-mobile d-md-none">
+															<div class="d-flex align-items-center">
+																<img src="./img/_src/rt_29_38_4.png" alt="">
+															</div>
+															<div class="d-flex align-self-center flex-column">
+																<p><big>1 комната <br>136 м²</big></p>
+																<p class="d-none d-md-block"><b>от 28 899 900 руб.</b></p>
+															</div>
+														</div>
 													</div>
 													<div class="swiper-slide">
-														<img src="./img/_src/rt_29_38_4.png" alt="">
+														<img class="d-none d-md-block" src="./img/_src/rt_29_38_4.png" alt="">
+														<div class="slider-content-mobile d-md-none">
+															<div class="d-flex align-items-center">
+																<img src="./img/_src/rt_29_38_4.png" alt="">
+															</div>
+															<div class="d-flex align-self-center flex-column">
+																<p><big>1 комната <br>136 м²</big></p>
+																<p class="d-none d-md-block"><b>от 28 899 900 руб.</b></p>
+															</div>
+														</div>
 													</div>
 													<div class="swiper-slide">
-														<img src="./img/_src/rt_29_38_4.png" alt="">
+														<img class="d-none d-md-block" src="./img/_src/rt_29_38_4.png" alt="">
+														<div class="slider-content-mobile d-md-none">
+															<div class="d-flex align-items-center">
+																<img src="./img/_src/rt_29_38_4.png" alt="">
+															</div>
+															<div class="d-flex align-self-center flex-column">
+																<p><big>1 комната <br>136 м²</big></p>
+																<p class="d-none d-md-block"><b>от 28 899 900 руб.</b></p>
+															</div>
+														</div>
 													</div>
 												</div>
 
 												<div class="container pagination">
-													<div class="row d-flex justify-content-end ">
-														<div class="col-4">
+													<div class="row d-flex justify-content-center">
+														<div class="col-md-4 col-12">
 															<div class="swip-pagination justify-content-center align-items-center"></div>
 															<div class="swip-button-next"></div>
 															<div class="swip-button-prev"></div>
@@ -697,23 +829,50 @@
 												</div>
 											</div>
 										</div>
-										<div class="complex-slider complex-slider-1">
+										<div id="complex-slider0-1" class="complex-slider">
 											<div class="swip-container">
 												<div class="swiper-wrapper">
 													<div class="swiper-slide">
-														<img src="./img/_src/rt_29_38_4.png" alt="">
+														<img class="d-none d-md-block" src="./img/_src/rt_29_38_4.png" alt="">
+														<div class="slider-content-mobile d-md-none">
+															<div class="d-flex align-items-center">
+																<img src="./img/_src/rt_29_38_4.png" alt="">
+															</div>
+															<div class="d-flex align-self-center flex-column">
+																<p><big>1 комната <br>136 м²</big></p>
+																<p class="d-none d-md-block"><b>от 28 899 900 руб.</b></p>
+															</div>
+														</div>
 													</div>
 													<div class="swiper-slide">
-														<img src="./img/_src/rt_29_38_4.png" alt="">
+														<img class="d-none d-md-block" src="./img/_src/rt_29_38_4.png" alt="">
+														<div class="slider-content-mobile d-md-none">
+															<div class="d-flex align-items-center">
+																<img src="./img/_src/rt_29_38_4.png" alt="">
+															</div>
+															<div class="d-flex align-self-center flex-column">
+																<p><big>1 комната <br>136 м²</big></p>
+																<p class="d-none d-md-block"><b>от 28 899 900 руб.</b></p>
+															</div>
+														</div>
 													</div>
 													<div class="swiper-slide">
-														<img src="./img/_src/rt_29_38_4.png" alt="">
+														<img class="d-none d-md-block" src="./img/_src/rt_29_38_4.png" alt="">
+														<div class="slider-content-mobile d-md-none">
+															<div class="d-flex align-items-center">
+																<img src="./img/_src/rt_29_38_4.png" alt="">
+															</div>
+															<div class="d-flex align-self-center flex-column">
+																<p><big>1 комната <br>136 м²</big></p>
+																<p class="d-none d-md-block"><b>от 28 899 900 руб.</b></p>
+															</div>
+														</div>
 													</div>
 												</div>
 
 												<div class="container pagination">
-													<div class="row d-flex justify-content-end ">
-														<div class="col-4">
+													<div class="row d-flex justify-content-center">
+														<div class="col-md-4 col-12">
 															<div class="swip-pagination justify-content-center align-items-center"></div>
 															<div class="swip-button-next"></div>
 															<div class="swip-button-prev"></div>
@@ -722,23 +881,50 @@
 												</div>
 											</div>
 										</div>
-										<div class="complex-slider complex-slider-2">
+										<div id="complex-slider0-2" class="complex-slider">
 											<div class="swip-container">
 												<div class="swiper-wrapper">
 													<div class="swiper-slide">
-														<img src="./img/_src/rt_29_38_4.png" alt="">
+														<img class="d-none d-md-block" src="./img/_src/rt_29_38_4.png" alt="">
+														<div class="slider-content-mobile d-md-none">
+															<div class="d-flex align-items-center">
+																<img src="./img/_src/rt_29_38_4.png" alt="">
+															</div>
+															<div class="d-flex align-self-center flex-column">
+																<p><big>1 комната <br>136 м²</big></p>
+																<p class="d-none d-md-block"><b>от 28 899 900 руб.</b></p>
+															</div>
+														</div>
 													</div>
 													<div class="swiper-slide">
-														<img src="./img/_src/rt_29_38_4.png" alt="">
+														<img class="d-none d-md-block" src="./img/_src/rt_29_38_4.png" alt="">
+														<div class="slider-content-mobile d-md-none">
+															<div class="d-flex align-items-center">
+																<img src="./img/_src/rt_29_38_4.png" alt="">
+															</div>
+															<div class="d-flex align-self-center flex-column">
+																<p><big>1 комната <br>136 м²</big></p>
+																<p class="d-none d-md-block"><b>от 28 899 900 руб.</b></p>
+															</div>
+														</div>
 													</div>
 													<div class="swiper-slide">
-														<img src="./img/_src/rt_29_38_4.png" alt="">
+														<img class="d-none d-md-block" src="./img/_src/rt_29_38_4.png" alt="">
+														<div class="slider-content-mobile d-md-none">
+															<div class="d-flex align-items-center">
+																<img src="./img/_src/rt_29_38_4.png" alt="">
+															</div>
+															<div class="d-flex align-self-center flex-column">
+																<p><big>1 комната <br>136 м²</big></p>
+																<p class="d-none d-md-block"><b>от 28 899 900 руб.</b></p>
+															</div>
+														</div>
 													</div>
 												</div>
 
 												<div class="container pagination">
-													<div class="row d-flex justify-content-end ">
-														<div class="col-4">
+													<div class="row d-flex justify-content-center">
+														<div class="col-md-4 col-12">
 															<div class="swip-pagination justify-content-center align-items-center"></div>
 															<div class="swip-button-next"></div>
 															<div class="swip-button-prev"></div>
@@ -747,23 +933,50 @@
 												</div>
 											</div>
 										</div>
-										<div class="complex-slider complex-slider-3">
+										<div id="complex-slider0-3" class="complex-slider">
 											<div class="swip-container">
 												<div class="swiper-wrapper">
 													<div class="swiper-slide">
-														<img src="./img/_src/rt_29_38_4.png" alt="">
+														<img class="d-none d-md-block" src="./img/_src/rt_29_38_4.png" alt="">
+														<div class="slider-content-mobile d-md-none">
+															<div class="d-flex align-items-center">
+																<img src="./img/_src/rt_29_38_4.png" alt="">
+															</div>
+															<div class="d-flex align-self-center flex-column">
+																<p><big>1 комната <br>136 м²</big></p>
+																<p class="d-none d-md-block"><b>от 28 899 900 руб.</b></p>
+															</div>
+														</div>
 													</div>
 													<div class="swiper-slide">
-														<img src="./img/_src/rt_29_38_4.png" alt="">
+														<img class="d-none d-md-block" src="./img/_src/rt_29_38_4.png" alt="">
+														<div class="slider-content-mobile d-md-none">
+															<div class="d-flex align-items-center">
+																<img src="./img/_src/rt_29_38_4.png" alt="">
+															</div>
+															<div class="d-flex align-self-center flex-column">
+																<p><big>1 комната <br>136 м²</big></p>
+																<p class="d-none d-md-block"><b>от 28 899 900 руб.</b></p>
+															</div>
+														</div>
 													</div>
 													<div class="swiper-slide">
-														<img src="./img/_src/rt_29_38_4.png" alt="">
+														<img class="d-none d-md-block" src="./img/_src/rt_29_38_4.png" alt="">
+														<div class="slider-content-mobile d-md-none">
+															<div class="d-flex align-items-center">
+																<img src="./img/_src/rt_29_38_4.png" alt="">
+															</div>
+															<div class="d-flex align-self-center flex-column">
+																<p><big>1 комната <br>136 м²</big></p>
+																<p class="d-none d-md-block"><b>от 28 899 900 руб.</b></p>
+															</div>
+														</div>
 													</div>
 												</div>
 
 												<div class="container pagination">
-													<div class="row d-flex justify-content-end ">
-														<div class="col-4">
+													<div class="row d-flex justify-content-center">
+														<div class="col-md-4 col-12">
 															<div class="swip-pagination justify-content-center align-items-center"></div>
 															<div class="swip-button-next"></div>
 															<div class="swip-button-prev"></div>
@@ -773,58 +986,85 @@
 											</div>
 										</div>
 									</div>
-									<div class="col-3 eights-content-capital">
+									<div class="col-lg-3 col-md-9 col-sm-12 eights-content-capital">
 										<div class="d-flex flex-column eights-text eights-text-0 active">
-											<p><big>1 комната <br>136 м²</big></p>
-											<p><b>от 28 899 900 руб.</b></p>
+											<p class="d-none d-md-block"><big>1 комната <br>136 м²</big></p>
+											<p class="d-none d-md-block"><b>от 28 899 900 руб.</b></p>
 											<p>Указана примерная цена за квартиру подобной площади и планировки.<br><br>
 												Оставьте заявку, и мы пришлем вам актуальные цены.
 											</p>
-											<a href="" class="button">Запросить цену</a>
+											<a href="#" class="button">Запросить цену</a>
 										</div>
 										<div class="d-flex flex-column eights-text eights-text-1">
-											<p><big>2 комнаты <br>136 м²</big></p>
-											<p><b>от 28 899 900 руб.</b></p>
+											<p class="d-none d-md-block"><big>2 комнаты <br>136 м²</big></p>
+											<p class="d-none d-md-block"><b>от 28 899 900 руб.</b></p>
 											<p>Указана примерная цена за квартиру подобной площади и планировки.<br><br>
 												Оставьте заявку, и мы пришлем вам актуальные цены.
 											</p>
-											<a href="" class="button">Запросить цену</a>
+											<a href="#" class="button">Запросить цену</a>
 										</div>
 										<div class="d-flex flex-column eights-text eights-text-2">
-											<p><big>3 комнаты <br>136 м²</big></p>
-											<p><b>от 28 899 900 руб.</b></p>
+											<p class="d-none d-md-block"><big>3 комнаты <br>136 м²</big></p>
+											<p class="d-none d-md-block"><b>от 28 899 900 руб.</b></p>
 											<p>Указана примерная цена за квартиру подобной площади и планировки.<br><br>
 												Оставьте заявку, и мы пришлем вам актуальные цены.
 											</p>
-											<a href="" class="button">Запросить цену</a>
+											<a href="#" class="button">Запросить цену</a>
 										</div>
 										<div class="d-flex flex-column eights-text eights-text-3">
-											<p><big>Пентхаусы и топ-квартиры <br>136 м²</big></p>
-											<p><b>от 28 899 900 руб.</b></p>
+											<p class="d-none d-md-block"><big>Пентхаусы и топ-квартиры <br>136 м²</big></p>
+											<p class="d-none d-md-block"><b>от 28 899 900 руб.</b></p>
 											<p>Указана примерная цена за квартиру подобной площади и планировки.<br><br>
 												Оставьте заявку, и мы пришлем вам актуальные цены.
 											</p>
-											<a href="" class="button">Запросить цену</a>
+											<a href="#" class="button">Запросить цену</a>
 										</div>
 									</div>
-									<div class="col-6 eights-content-neva active">
-										<div class="complex-slider complex-slider-0">
+									<div class="col-lg-6 col-md-9 col-sm-12 eights-content-neva active">
+										<div id="complex-slider1-0" class="complex-slider active">
 											<div class="swip-container">
 												<div class="swiper-wrapper">
 													<div class="swiper-slide">
-														<img src="./img/_src/rt_29_38_4.png" alt="">
+														<img class="d-none d-md-block" src="./img/_src/rt_29_38_4.png" alt="">
+														<div class="slider-content-mobile d-md-none">
+															<div class="d-flex align-items-center">
+																<img src="./img/_src/rt_29_38_4.png" alt="">
+															</div>
+															<div class="d-flex align-self-center flex-column">
+																<p><big>1 комната <br>136 м²</big></p>
+																<p class="d-none d-md-block"><b>от 28 899 900 руб.</b></p>
+															</div>
+														</div>
 													</div>
 													<div class="swiper-slide">
-														<img src="./img/_src/rt_29_38_4.png" alt="">
+														<img class="d-none d-md-block" src="./img/_src/rt_29_38_4.png" alt="">
+														<div class="slider-content-mobile d-md-none">
+															<div class="d-flex align-items-center">
+																<img src="./img/_src/rt_29_38_4.png" alt="">
+															</div>
+															<div class="d-flex align-self-center flex-column">
+																<p><big>1 комната <br>136 м²</big></p>
+																<p class="d-none d-md-block"><b>от 28 899 900 руб.</b></p>
+															</div>
+														</div>
 													</div>
 													<div class="swiper-slide">
-														<img src="./img/_src/rt_29_38_4.png" alt="">
+														<img class="d-none d-md-block" src="./img/_src/rt_29_38_4.png" alt="">
+														<div class="slider-content-mobile d-md-none">
+															<div class="d-flex align-items-center">
+																<img src="./img/_src/rt_29_38_4.png" alt="">
+															</div>
+															<div class="d-flex align-self-center flex-column">
+																<p><big>1 комната <br>136 м²</big></p>
+																<p class="d-none d-md-block"><b>от 28 899 900 руб.</b></p>
+															</div>
+														</div>
 													</div>
 												</div>
 
 												<div class="container pagination">
-													<div class="row d-flex justify-content-end ">
-														<div class="col-4">
+													<div class="row d-flex justify-content-center">
+														<div class="col-md-4 col-12">
 															<div class="swip-pagination justify-content-center align-items-center"></div>
 															<div class="swip-button-next"></div>
 															<div class="swip-button-prev"></div>
@@ -833,23 +1073,50 @@
 												</div>
 											</div>
 										</div>
-										<div class="complex-slider complex-slider-1 active">
+										<div id="complex-slider1-1" class="complex-slider">
 											<div class="swip-container">
 												<div class="swiper-wrapper">
 													<div class="swiper-slide">
-														<img src="./img/_src/rt_29_38_4.png" alt="">
+														<img class="d-none d-md-block" src="./img/_src/rt_29_38_4.png" alt="">
+														<div class="slider-content-mobile d-md-none">
+															<div class="d-flex align-items-center">
+																<img src="./img/_src/rt_29_38_4.png" alt="">
+															</div>
+															<div class="d-flex align-self-center flex-column">
+																<p><big>1 комната <br>136 м²</big></p>
+																<p class="d-none d-md-block"><b>от 28 899 900 руб.</b></p>
+															</div>
+														</div>
 													</div>
 													<div class="swiper-slide">
-														<img src="./img/_src/rt_29_38_4.png" alt="">
+														<img class="d-none d-md-block" src="./img/_src/rt_29_38_4.png" alt="">
+														<div class="slider-content-mobile d-md-none">
+															<div class="d-flex align-items-center">
+																<img src="./img/_src/rt_29_38_4.png" alt="">
+															</div>
+															<div class="d-flex align-self-center flex-column">
+																<p><big>1 комната <br>136 м²</big></p>
+																<p class="d-none d-md-block"><b>от 28 899 900 руб.</b></p>
+															</div>
+														</div>
 													</div>
 													<div class="swiper-slide">
-														<img src="./img/_src/rt_29_38_4.png" alt="">
+														<img class="d-none d-md-block" src="./img/_src/rt_29_38_4.png" alt="">
+														<div class="slider-content-mobile d-md-none">
+															<div class="d-flex align-items-center">
+																<img src="./img/_src/rt_29_38_4.png" alt="">
+															</div>
+															<div class="d-flex align-self-center flex-column">
+																<p><big>1 комната <br>136 м²</big></p>
+																<p class="d-none d-md-block"><b>от 28 899 900 руб.</b></p>
+															</div>
+														</div>
 													</div>
 												</div>
 
 												<div class="container pagination">
-													<div class="row d-flex justify-content-end ">
-														<div class="col-4">
+													<div class="row d-flex justify-content-center">
+														<div class="col-md-4 col-12">
 															<div class="swip-pagination justify-content-center align-items-center"></div>
 															<div class="swip-button-next"></div>
 															<div class="swip-button-prev"></div>
@@ -858,23 +1125,50 @@
 												</div>
 											</div>
 										</div>
-										<div class="complex-slider complex-slider-2">
+										<div id="complex-slider1-2" class="complex-slider">
 											<div class="swip-container">
 												<div class="swiper-wrapper">
 													<div class="swiper-slide">
-														<img src="./img/_src/rt_29_38_4.png" alt="">
+														<img class="d-none d-md-block" src="./img/_src/rt_29_38_4.png" alt="">
+														<div class="slider-content-mobile d-md-none">
+															<div class="d-flex align-items-center">
+																<img src="./img/_src/rt_29_38_4.png" alt="">
+															</div>
+															<div class="d-flex align-self-center flex-column">
+																<p><big>1 комната <br>136 м²</big></p>
+																<p class="d-none d-md-block"><b>от 28 899 900 руб.</b></p>
+															</div>
+														</div>
 													</div>
 													<div class="swiper-slide">
-														<img src="./img/_src/rt_29_38_4.png" alt="">
+														<img class="d-none d-md-block" src="./img/_src/rt_29_38_4.png" alt="">
+														<div class="slider-content-mobile d-md-none">
+															<div class="d-flex align-items-center">
+																<img src="./img/_src/rt_29_38_4.png" alt="">
+															</div>
+															<div class="d-flex align-self-center flex-column">
+																<p><big>1 комната <br>136 м²</big></p>
+																<p class="d-none d-md-block"><b>от 28 899 900 руб.</b></p>
+															</div>
+														</div>
 													</div>
 													<div class="swiper-slide">
-														<img src="./img/_src/rt_29_38_4.png" alt="">
+														<img class="d-none d-md-block" src="./img/_src/rt_29_38_4.png" alt="">
+														<div class="slider-content-mobile d-md-none">
+															<div class="d-flex align-items-center">
+																<img src="./img/_src/rt_29_38_4.png" alt="">
+															</div>
+															<div class="d-flex align-self-center flex-column">
+																<p><big>1 комната <br>136 м²</big></p>
+																<p class="d-none d-md-block"><b>от 28 899 900 руб.</b></p>
+															</div>
+														</div>
 													</div>
 												</div>
 
 												<div class="container pagination">
-													<div class="row d-flex justify-content-end ">
-														<div class="col-4">
+													<div class="row d-flex justify-content-center">
+														<div class="col-md-4 col-12">
 															<div class="swip-pagination justify-content-center align-items-center"></div>
 															<div class="swip-button-next"></div>
 															<div class="swip-button-prev"></div>
@@ -883,23 +1177,50 @@
 												</div>
 											</div>
 										</div>
-										<div class="complex-slider complex-slider-3">
+										<div id="complex-slider1-3" class="complex-slider">
 											<div class="swip-container">
 												<div class="swiper-wrapper">
 													<div class="swiper-slide">
-														<img src="./img/_src/rt_29_38_4.png" alt="">
+														<img class="d-none d-md-block" src="./img/_src/rt_29_38_4.png" alt="">
+														<div class="slider-content-mobile d-md-none">
+															<div class="d-flex align-items-center">
+																<img src="./img/_src/rt_29_38_4.png" alt="">
+															</div>
+															<div class="d-flex align-self-center flex-column">
+																<p><big>1 комната <br>136 м²</big></p>
+																<p class="d-none d-md-block"><b>от 28 899 900 руб.</b></p>
+															</div>
+														</div>
 													</div>
 													<div class="swiper-slide">
-														<img src="./img/_src/rt_29_38_4.png" alt="">
+														<img class="d-none d-md-block" src="./img/_src/rt_29_38_4.png" alt="">
+														<div class="slider-content-mobile d-md-none">
+															<div class="d-flex align-items-center">
+																<img src="./img/_src/rt_29_38_4.png" alt="">
+															</div>
+															<div class="d-flex align-self-center flex-column">
+																<p><big>1 комната <br>136 м²</big></p>
+																<p class="d-none d-md-block"><b>от 28 899 900 руб.</b></p>
+															</div>
+														</div>
 													</div>
 													<div class="swiper-slide">
-														<img src="./img/_src/rt_29_38_4.png" alt="">
+														<img class="d-none d-md-block" src="./img/_src/rt_29_38_4.png" alt="">
+														<div class="slider-content-mobile d-md-none">
+															<div class="d-flex align-items-center">
+																<img src="./img/_src/rt_29_38_4.png" alt="">
+															</div>
+															<div class="d-flex align-self-center flex-column">
+																<p><big>1 комната <br>136 м²</big></p>
+																<p class="d-none d-md-block"><b>от 28 899 900 руб.</b></p>
+															</div>
+														</div>
 													</div>
 												</div>
 
 												<div class="container pagination">
-													<div class="row d-flex justify-content-end ">
-														<div class="col-4">
+													<div class="row d-flex justify-content-center">
+														<div class="col-md-4 col-12">
 															<div class="swip-pagination justify-content-center align-items-center"></div>
 															<div class="swip-button-next"></div>
 															<div class="swip-button-prev"></div>
@@ -909,58 +1230,85 @@
 											</div>
 										</div>
 									</div>
-									<div class="col-3 eights-content-neva active">
+									<div class="col-lg-3 col-md-9 col-sm-12 eights-content-neva active">
 										<div class="d-flex flex-column eights-text eights-text-0 active">
-											<p><big>1 комната <br>136 м²</big></p>
-											<p><b>от 28 899 900 руб.</b></p>
+											<p class="d-none d-md-block"><big>1 комната <br>136 м²</big></p>
+											<p class="d-none d-md-block"><b>от 28 899 900 руб.</b></p>
 											<p>Указана примерная цена за квартиру подобной площади и планировки.<br><br>
 												Оставьте заявку, и мы пришлем вам актуальные цены.
 											</p>
-											<a href="" class="button">Запросить цену</a>
+											<a href="#" class="button">Запросить цену</a>
 										</div>
 										<div class="d-flex flex-column eights-text eights-text-1">
-											<p><big>2 комнаты <br>136 м²</big></p>
-											<p><b>от 28 899 900 руб.</b></p>
+											<p class="d-none d-md-block"><big>2 комнаты <br>136 м²</big></p>
+											<p class="d-none d-md-block"><b>от 28 899 900 руб.</b></p>
 											<p>Указана примерная цена за квартиру подобной площади и планировки.<br><br>
 												Оставьте заявку, и мы пришлем вам актуальные цены.
 											</p>
-											<a href="" class="button">Запросить цену</a>
+											<a href="#" class="button">Запросить цену</a>
 										</div>
 										<div class="d-flex flex-column eights-text eights-text-2">
-											<p><big>3 комнаты <br>136 м²</big></p>
-											<p><b>от 28 899 900 руб.</b></p>
+											<p class="d-none d-md-block"><big>3 комнаты <br>136 м²</big></p>
+											<p class="d-none d-md-block"><b>от 28 899 900 руб.</b></p>
 											<p>Указана примерная цена за квартиру подобной площади и планировки.<br><br>
 												Оставьте заявку, и мы пришлем вам актуальные цены.
 											</p>
-											<a href="" class="button">Запросить цену</a>
+											<a href="#" class="button">Запросить цену</a>
 										</div>
 										<div class="d-flex flex-column eights-text eights-text-3">
-											<p><big>Пентхаусы и топ-квартиры <br>136 м²</big></p>
-											<p><b>от 28 899 900 руб.</b></p>
+											<p class="d-none d-md-block"><big>Пентхаусы и топ-квартиры <br>136 м²</big></p>
+											<p class="d-none d-md-block"><b>от 28 899 900 руб.</b></p>
 											<p>Указана примерная цена за квартиру подобной площади и планировки.<br><br>
 												Оставьте заявку, и мы пришлем вам актуальные цены.
 											</p>
-											<a href="" class="button">Запросить цену</a>
+											<a href="#" class="button">Запросить цену</a>
 										</div>
 									</div>
-									<div class="col-6 eights-content-wings">
-										<div class="complex-slider complex-slider-0 active">
+									<div class="col-lg-6 col-md-9 col-sm-12 eights-content-wings">
+										<div id="complex-slider2-0" class="complex-slider">
 											<div class="swip-container">
 												<div class="swiper-wrapper">
 													<div class="swiper-slide">
-														<img src="./img/_src/rt_29_38_4.png" alt="">
+														<img class="d-none d-md-block" src="./img/_src/rt_29_38_4.png" alt="">
+														<div class="slider-content-mobile d-md-none">
+															<div class="d-flex align-items-center">
+																<img src="./img/_src/rt_29_38_4.png" alt="">
+															</div>
+															<div class="d-flex align-self-center flex-column">
+																<p><big>1 комната <br>136 м²</big></p>
+																<p class="d-none d-md-block"><b>от 28 899 900 руб.</b></p>
+															</div>
+														</div>
 													</div>
 													<div class="swiper-slide">
-														<img src="./img/_src/rt_29_38_4.png" alt="">
+														<img class="d-none d-md-block" src="./img/_src/rt_29_38_4.png" alt="">
+														<div class="slider-content-mobile d-md-none">
+															<div class="d-flex align-items-center">
+																<img src="./img/_src/rt_29_38_4.png" alt="">
+															</div>
+															<div class="d-flex align-self-center flex-column">
+																<p><big>1 комната <br>136 м²</big></p>
+																<p class="d-none d-md-block"><b>от 28 899 900 руб.</b></p>
+															</div>
+														</div>
 													</div>
 													<div class="swiper-slide">
-														<img src="./img/_src/rt_29_38_4.png" alt="">
+														<img class="d-none d-md-block" src="./img/_src/rt_29_38_4.png" alt="">
+														<div class="slider-content-mobile d-md-none">
+															<div class="d-flex align-items-center">
+																<img src="./img/_src/rt_29_38_4.png" alt="">
+															</div>
+															<div class="d-flex align-self-center flex-column">
+																<p><big>1 комната <br>136 м²</big></p>
+																<p class="d-none d-md-block"><b>от 28 899 900 руб.</b></p>
+															</div>
+														</div>
 													</div>
 												</div>
 
 												<div class="container pagination">
-													<div class="row d-flex justify-content-end ">
-														<div class="col-4">
+													<div class="row d-flex justify-content-center">
+														<div class="col-md-4 col-12">
 															<div class="swip-pagination justify-content-center align-items-center"></div>
 															<div class="swip-button-next"></div>
 															<div class="swip-button-prev"></div>
@@ -969,29 +1317,74 @@
 												</div>
 											</div>
 										</div>
-										<div class="complex-slider complex-slider-1">
+										<div id="complex-slider2-1" class="complex-slider">
 											<div class="swip-container">
 												<div class="swiper-wrapper">
 													<div class="swiper-slide">
-														<img src="./img/_src/rt_29_38_4.png" alt="">
+														<img class="d-none d-md-block" src="./img/_src/rt_29_38_4.png" alt="">
+														<div class="slider-content-mobile d-md-none">
+															<div class="d-flex align-items-center">
+																<img src="./img/_src/rt_29_38_4.png" alt="">
+															</div>
+															<div class="d-flex align-self-center flex-column">
+																<p><big>1 комната <br>136 м²</big></p>
+																<p class="d-none d-md-block"><b>от 28 899 900 руб.</b></p>
+															</div>
+														</div>
 													</div>
 													<div class="swiper-slide">
-														<img src="./img/_src/rt_29_38_4.png" alt="">
+														<img class="d-none d-md-block" src="./img/_src/rt_29_38_4.png" alt="">
+														<div class="slider-content-mobile d-md-none">
+															<div class="d-flex align-items-center">
+																<img src="./img/_src/rt_29_38_4.png" alt="">
+															</div>
+															<div class="d-flex align-self-center flex-column">
+																<p><big>1 комната <br>136 м²</big></p>
+																<p class="d-none d-md-block"><b>от 28 899 900 руб.</b></p>
+															</div>
+														</div>
 													</div>
 													<div class="swiper-slide">
-														<img src="./img/_src/rt_29_38_4.png" alt="">
+														<img class="d-none d-md-block" src="./img/_src/rt_29_38_4.png" alt="">
+														<div class="slider-content-mobile d-md-none">
+															<div class="d-flex align-items-center">
+																<img src="./img/_src/rt_29_38_4.png" alt="">
+															</div>
+															<div class="d-flex align-self-center flex-column">
+																<p><big>1 комната <br>136 м²</big></p>
+																<p class="d-none d-md-block"><b>от 28 899 900 руб.</b></p>
+															</div>
+														</div>
 													</div>
 													<div class="swiper-slide">
-														<img src="./img/_src/rt_29_38_4.png" alt="">
+														<img class="d-none d-md-block" src="./img/_src/rt_29_38_4.png" alt="">
+														<div class="slider-content-mobile d-md-none">
+															<div class="d-flex align-items-center">
+																<img src="./img/_src/rt_29_38_4.png" alt="">
+															</div>
+															<div class="d-flex align-self-center flex-column">
+																<p><big>1 комната <br>136 м²</big></p>
+																<p class="d-none d-md-block"><b>от 28 899 900 руб.</b></p>
+															</div>
+														</div>
 													</div>
 													<div class="swiper-slide">
-														<img src="./img/_src/rt_29_38_4.png" alt="">
+														<img class="d-none d-md-block" src="./img/_src/rt_29_38_4.png" alt="">
+														<div class="slider-content-mobile d-md-none">
+															<div class="d-flex align-items-center">
+																<img src="./img/_src/rt_29_38_4.png" alt="">
+															</div>
+															<div class="d-flex align-self-center flex-column">
+																<p><big>1 комната <br>136 м²</big></p>
+																<p class="d-none d-md-block"><b>от 28 899 900 руб.</b></p>
+															</div>
+														</div>
 													</div>
 												</div>
 
 												<div class="container pagination">
-													<div class="row d-flex justify-content-end ">
-														<div class="col-4">
+													<div class="row d-flex justify-content-center">
+														<div class="col-md-4 col-12">
 															<div class="swip-pagination justify-content-center align-items-center"></div>
 															<div class="swip-button-next"></div>
 															<div class="swip-button-prev"></div>
@@ -1000,32 +1393,86 @@
 												</div>
 											</div>
 										</div>
-										<div class="complex-slider complex-slider-2">
+										<div id="complex-slider2-2" class="complex-slider">
 											<div class="swip-container">
 												<div class="swiper-wrapper">
 													<div class="swiper-slide">
-														<img src="./img/_src/rt_29_38_4.png" alt="">
+														<img class="d-none d-md-block" src="./img/_src/rt_29_38_4.png" alt="">
+														<div class="slider-content-mobile d-md-none">
+															<div class="d-flex align-items-center">
+																<img src="./img/_src/rt_29_38_4.png" alt="">
+															</div>
+															<div class="d-flex align-self-center flex-column">
+																<p><big>1 комната <br>136 м²</big></p>
+																<p class="d-none d-md-block"><b>от 28 899 900 руб.</b></p>
+															</div>
+														</div>
 													</div>
 													<div class="swiper-slide">
-														<img src="./img/_src/rt_29_38_4.png" alt="">
+														<img class="d-none d-md-block" src="./img/_src/rt_29_38_4.png" alt="">
+														<div class="slider-content-mobile d-md-none">
+															<div class="d-flex align-items-center">
+																<img src="./img/_src/rt_29_38_4.png" alt="">
+															</div>
+															<div class="d-flex align-self-center flex-column">
+																<p><big>1 комната <br>136 м²</big></p>
+																<p class="d-none d-md-block"><b>от 28 899 900 руб.</b></p>
+															</div>
+														</div>
 													</div>
 													<div class="swiper-slide">
-														<img src="./img/_src/rt_29_38_4.png" alt="">
+														<img class="d-none d-md-block" src="./img/_src/rt_29_38_4.png" alt="">
+														<div class="slider-content-mobile d-md-none">
+															<div class="d-flex align-items-center">
+																<img src="./img/_src/rt_29_38_4.png" alt="">
+															</div>
+															<div class="d-flex align-self-center flex-column">
+																<p><big>1 комната <br>136 м²</big></p>
+																<p class="d-none d-md-block"><b>от 28 899 900 руб.</b></p>
+															</div>
+														</div>
 													</div>
 													<div class="swiper-slide">
-														<img src="./img/_src/rt_29_38_4.png" alt="">
+														<img class="d-none d-md-block" src="./img/_src/rt_29_38_4.png" alt="">
+														<div class="slider-content-mobile d-md-none">
+															<div class="d-flex align-items-center">
+																<img src="./img/_src/rt_29_38_4.png" alt="">
+															</div>
+															<div class="d-flex align-self-center flex-column">
+																<p><big>1 комната <br>136 м²</big></p>
+																<p class="d-none d-md-block"><b>от 28 899 900 руб.</b></p>
+															</div>
+														</div>
 													</div>
 													<div class="swiper-slide">
-														<img src="./img/_src/rt_29_38_4.png" alt="">
+														<img class="d-none d-md-block" src="./img/_src/rt_29_38_4.png" alt="">
+														<div class="slider-content-mobile d-md-none">
+															<div class="d-flex align-items-center">
+																<img src="./img/_src/rt_29_38_4.png" alt="">
+															</div>
+															<div class="d-flex align-self-center flex-column">
+																<p><big>1 комната <br>136 м²</big></p>
+																<p class="d-none d-md-block"><b>от 28 899 900 руб.</b></p>
+															</div>
+														</div>
 													</div>
 													<div class="swiper-slide">
-														<img src="./img/_src/rt_29_38_4.png" alt="">
+														<img class="d-none d-md-block" src="./img/_src/rt_29_38_4.png" alt="">
+														<div class="slider-content-mobile d-md-none">
+															<div class="d-flex align-items-center">
+																<img src="./img/_src/rt_29_38_4.png" alt="">
+															</div>
+															<div class="d-flex align-self-center flex-column">
+																<p><big>1 комната <br>136 м²</big></p>
+																<p class="d-none d-md-block"><b>от 28 899 900 руб.</b></p>
+															</div>
+														</div>
 													</div>
 												</div>
 
 												<div class="container pagination">
-													<div class="row d-flex justify-content-end ">
-														<div class="col-4">
+													<div class="row d-flex justify-content-center">
+														<div class="col-md-4 col-12">
 															<div class="swip-pagination justify-content-center align-items-center"></div>
 															<div class="swip-button-next"></div>
 															<div class="swip-button-prev"></div>
@@ -1034,32 +1481,86 @@
 												</div>
 											</div>
 										</div>
-										<div class="complex-slider complex-slider-3">
+										<div id="complex-slider2-3" class="complex-slider">
 											<div class="swip-container">
 												<div class="swiper-wrapper">
 													<div class="swiper-slide">
-														<img src="./img/_src/rt_29_38_4.png" alt="">
+														<img class="d-none d-md-block" src="./img/_src/rt_29_38_4.png" alt="">
+														<div class="slider-content-mobile d-md-none">
+															<div class="d-flex align-items-center">
+																<img src="./img/_src/rt_29_38_4.png" alt="">
+															</div>
+															<div class="d-flex align-self-center flex-column">
+																<p><big>1 комната <br>136 м²</big></p>
+																<p class="d-none d-md-block"><b>от 28 899 900 руб.</b></p>
+															</div>
+														</div>
 													</div>
 													<div class="swiper-slide">
-														<img src="./img/_src/rt_29_38_4.png" alt="">
+														<img class="d-none d-md-block" src="./img/_src/rt_29_38_4.png" alt="">
+														<div class="slider-content-mobile d-md-none">
+															<div class="d-flex align-items-center">
+																<img src="./img/_src/rt_29_38_4.png" alt="">
+															</div>
+															<div class="d-flex align-self-center flex-column">
+																<p><big>1 комната <br>136 м²</big></p>
+																<p class="d-none d-md-block"><b>от 28 899 900 руб.</b></p>
+															</div>
+														</div>
 													</div>
 													<div class="swiper-slide">
-														<img src="./img/_src/rt_29_38_4.png" alt="">
+														<img class="d-none d-md-block" src="./img/_src/rt_29_38_4.png" alt="">
+														<div class="slider-content-mobile d-md-none">
+															<div class="d-flex align-items-center">
+																<img src="./img/_src/rt_29_38_4.png" alt="">
+															</div>
+															<div class="d-flex align-self-center flex-column">
+																<p><big>1 комната <br>136 м²</big></p>
+																<p class="d-none d-md-block"><b>от 28 899 900 руб.</b></p>
+															</div>
+														</div>
 													</div>
 													<div class="swiper-slide">
-														<img src="./img/_src/rt_29_38_4.png" alt="">
+														<img class="d-none d-md-block" src="./img/_src/rt_29_38_4.png" alt="">
+														<div class="slider-content-mobile d-md-none">
+															<div class="d-flex align-items-center">
+																<img src="./img/_src/rt_29_38_4.png" alt="">
+															</div>
+															<div class="d-flex align-self-center flex-column">
+																<p><big>1 комната <br>136 м²</big></p>
+																<p class="d-none d-md-block"><b>от 28 899 900 руб.</b></p>
+															</div>
+														</div>
 													</div>
 													<div class="swiper-slide">
-														<img src="./img/_src/rt_29_38_4.png" alt="">
+														<img class="d-none d-md-block" src="./img/_src/rt_29_38_4.png" alt="">
+														<div class="slider-content-mobile d-md-none">
+															<div class="d-flex align-items-center">
+																<img src="./img/_src/rt_29_38_4.png" alt="">
+															</div>
+															<div class="d-flex align-self-center flex-column">
+																<p><big>1 комната <br>136 м²</big></p>
+																<p class="d-none d-md-block"><b>от 28 899 900 руб.</b></p>
+															</div>
+														</div>
 													</div>
 													<div class="swiper-slide">
-														<img src="./img/_src/rt_29_38_4.png" alt="">
+														<img class="d-none d-md-block" src="./img/_src/rt_29_38_4.png" alt="">
+														<div class="slider-content-mobile d-md-none">
+															<div class="d-flex align-items-center">
+																<img src="./img/_src/rt_29_38_4.png" alt="">
+															</div>
+															<div class="d-flex align-self-center flex-column">
+																<p><big>1 комната <br>136 м²</big></p>
+																<p class="d-none d-md-block"><b>от 28 899 900 руб.</b></p>
+															</div>
+														</div>
 													</div>
 												</div>
 
 												<div class="container pagination">
-													<div class="row d-flex justify-content-end ">
-														<div class="col-4">
+													<div class="row d-flex justify-content-center">
+														<div class="col-md-4 col-12">
 															<div class="swip-pagination justify-content-center align-items-center"></div>
 															<div class="swip-button-next"></div>
 															<div class="swip-button-prev"></div>
@@ -1069,210 +1570,221 @@
 											</div>
 										</div>
 									</div>
-									<div class="col-3 eights-content-wings">
+									<div class="col-lg-3 col-md-9 col-sm-12 eights-content-wings">
 										<div class="d-flex flex-column eights-text eights-text-0 active">
-											<p><big>1 комната <br>136 м²</big></p>
-											<p><b>от 28 899 900 руб.</b></p>
+											<p class="d-none d-md-block"><big>1 комната <br>136 м²</big></p>
+											<p class="d-none d-md-block"><b>от 28 899 900 руб.</b></p>
 											<p>Указана примерная цена за квартиру подобной площади и планировки.<br><br>
 												Оставьте заявку, и мы пришлем вам актуальные цены.
 											</p>
-											<a href="" class="button">Запросить цену</a>
+											<a href="#" class="button">Запросить цену</a>
 										</div>
 										<div class="d-flex flex-column eights-text eights-text-1">
-											<p><big>2 комнаты <br>136 м²</big></p>
-											<p><b>от 28 899 900 руб.</b></p>
+											<p class="d-none d-md-block"><big>2 комнаты <br>136 м²</big></p>
+											<p class="d-none d-md-block"><b>от 28 899 900 руб.</b></p>
 											<p>Указана примерная цена за квартиру подобной площади и планировки.<br><br>
 												Оставьте заявку, и мы пришлем вам актуальные цены.
 											</p>
-											<a href="" class="button">Запросить цену</a>
+											<a href="#" class="button">Запросить цену</a>
 										</div>
 										<div class="d-flex flex-column eights-text eights-text-2">
-											<p><big>3 комнаты <br>136 м²</big></p>
-											<p><b>от 28 899 900 руб.</b></p>
+											<p class="d-none d-md-block"><big>3 комнаты <br>136 м²</big></p>
+											<p class="d-none d-md-block"><b>от 28 899 900 руб.</b></p>
 											<p>Указана примерная цена за квартиру подобной площади и планировки.<br><br>
 												Оставьте заявку, и мы пришлем вам актуальные цены.
 											</p>
-											<a href="" class="button">Запросить цену</a>
+											<a href="#" class="button">Запросить цену</a>
 										</div>
 										<div class="d-flex flex-column eights-text eights-text-3">
-											<p><big>Пентхаусы и топ-квартиры <br>136 м²</big></p>
-											<p><b>от 28 899 900 руб.</b></p>
+											<p class="d-none d-md-block"><big>Пентхаусы и топ-квартиры <br>136 м²</big></p>
+											<p class="d-none d-md-block"><b>от 28 899 900 руб.</b></p>
 											<p>Указана примерная цена за квартиру подобной площади и планировки.<br><br>
 												Оставьте заявку, и мы пришлем вам актуальные цены.
 											</p>
-											<a href="" class="button">Запросить цену</a>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="container-fluid form-1">
-							<div class="container">
-								<div class="row">
-									<div class="col-6 d-flex flex-column left">
-										<h2>Получите<br>Актуальные планировки</h2>
-										<p>Введите свои контактные данные для мгновенного <br>скачивания планировок объектов</p>
-										<div class="row">
-											<div class="col-7 d-flex justify-content-between">
-												<p><input type="checkbox">Capital Towers</p>
-												<p><input type="checkbox">Neva Towers</p>
-												<p><input type="checkbox">Крылья</p>
-											</div>
-											<div class="col-6">
-												<input class="text-input" type="text" placeholder="Номер телефона">
-											</div>
-											<div class="col-1"></div>
-											<div class="col-6 btn">
-												<a href="" class="button">Скачать планировки</a>
-											</div>
-											<div class="col-1"></div>
-											<div class="col-12">
-												<p>Подтверждая действие на странице вы соглашаетесь <br>с <a href="">политикой конфиденциальности</a></p>
-											</div>
-
-										</div>
-
-									</div>
-									<div class="col-6 right">
-										<img class="img-fullscreen"
-										src="img/@1x/plans.png"
-										srcset="img/@1x/plans.png 1x, img/@2x/plans.png 2x"
-										alt="Планировки">
-									</div>
-
-									<div class="col-6"></div>
-								</div>
-							</div>
-						</div>
-						<div class="container ninth">
-							<div class="row d-flex align-items-end">
-								<div class="col-3 d-flex flex-column align-items-center consultation">
-									<h5>Задайте любой вопрос нашему специалисту</h5>
-									<img class="img-responsive"
-									src="img/@1x/avatar.png"
-									srcset="img/@1x/avatar.png 1x, img/@2x/avatar.png 2x"
-									alt="">
-									<p>Дмитрий Маслов <br>Специалист по инвестициям</p>
-									<a href="" class="button">Заказать консультацию</a>
-								</div>
-								<div class="col-9 invest">
-									<h2>Инвестиционная привлекательность</h2>
-									<div class="row">
-										<div class="col-4">
-											<p>Стоимость квартиры, ₽</p>
-											<div class="invest-box">
-												<span class="invest-box-value">0</span>
-												<div class="invest-box-input"></div>
-											</div>
-										</div>
-										<div class="col-4">
-											<p>Срок инвестиции, лет</p>
-											<div class="invest-btn">
-												<button>1</button>
-												<button>2</button>
-												<button>3</button>
-												<button>5</button>
-											</div>
-										</div>
-									</div>
-									<div class="row d-flex flex-row align-items-center margin">
-										<div class="col-6 d-flex flex-row">
-											<p>Примерная доходность: <br>Стоимость продажи:</p>
-											<p><b>15% <br>37 369 153 рублей</b></p>
-										</div>
-										<div class="col-3 dashed">
-											<p>Ожидаемая прибыль</p>
-											<p><b>8 013 000 рублей</b></p>
-
-										</div>
-									</div>
-									<div class="row">
-										<div class="col-10">
-											<p>Наши эксперты наблюдают несколько ключевых факторов, указывающих на инвестиционную привлекательность покупки — готовы рассказать о каждом подробнее и помогут выбрать лучшую стратегию:</p>
-										</div>
-									</div>
-									<div class="row">
-										<div class="col-4">
-											<p>Прибыль при сдаче недвижимости в аренду</p>
-										</div>
-										<div class="col-4">
-											<p>Прирост пассивного капитала из-за повышения цен на рынке недвижимости</p>
-										</div>
-										<div class="col-4">
-											<p>Значительный доход при успешной перепродаже объекта недвижимости</p>
-										</div>
-									</div>
-									<div class="row">
-										<div class="col-4">
-											<div class="line-bottom"></div>
-										</div>
-										<div class="col-4">
-											<div class="line-bottom"></div>
-										</div>
-										<div class="col-4">
-											<div class="line-bottom"></div>
+											<a href="#" class="button">Запросить цену</a>
 										</div>
 									</div>
 								</div>
 							</div>
 						</div>
 					</div>
+						<div class="form-1">
+							<div class="container">
+								<div class="row">
+									<div class="col-md-6 col-12 d-flex flex-column left">
+										<h2  class="d-none d-md-block">Получите<br>Актуальные планировки</h2>
+										<h2 class="d-md-none">Актуальные планировки</h2>
+										<p>Оставьте заявку и наш специалист подготовит для вас полный и актуальный список планировок</p>
+										<div class="row">
+											<div class="col-7 d-flex check-box flex-column flex-md-row">
+												<div class="d-flex">
+													<input id="check1" type="checkbox" name="check">
+													<label for="check1">Capital Towers</label>
+												</div>
+												<div class="d-flex">
+													<input id="check2" type="checkbox" name="check">
+													<label for="check2">Neva Towers</label>
+												</div>
+												<div class="d-flex">
+													<input id="check3" type="checkbox" name="check">
+													<label for="check3">Крылья</label>
+												</div>
+											</div>
+											<div class="col-lg-6 col-md-12 col-sm-8 col-12">
+												<input class="text-input" type="text" placeholder="Номер телефона" pattern="[\+]\d{1}\s[\(]\d{3}[\)]\s\d{3}[\-]\d{2}[\-]\d{2}" minlength="18" maxlength="18">
+												<a href="#" class="button popup-open" id="open-5">Запросить планировки</a>
+											</div>
+											<div class="col-1 d-none d-md-block"></div>
+											<div class="col-12 d-none d-md-block">
+												<p>Подтверждая действие на странице вы соглашаетесь <br>с <a href="#">политикой конфиденциальности</a></p>
+											</div>
+										</div>
+									</div>
+									<div class="col-6 right d-none d-md-block">
+										<img class="img-fullscreen"
+										src="img/@1x/plans.png"
+										srcset="img/@1x/plans.png 1x, img/@2x/plans.png 2x"
+										alt="Планировки">
+									</div>
+									<div class="col-6"></div>
+								</div>
+							</div>
+						</div>
+						<div class="container ninth">
+							<div class="d-flex align-items-end flex-column-reverse flex-md-row">
+								<div class="col-md-3 col-12 d-flex flex-md-column flex-row align-items-center consultation">
+									<h5 class="d-none d-md-block">Задайте любой вопрос нашему специалисту</h5>
+									<img class="img-responsive"
+									src="img/@1x/avatar.png"
+									srcset="img/@1x/avatar.png 1x, img/@2x/avatar.png 2x"
+									alt="">
+									<div>
+										<p>Дмитрий Маслов <br>Специалист по инвестициям</p>
+										<a href="#" class="button popup-open" id="open-7">Заказать консультацию</a>
+									</div>
+								</div>
+								<div class="col-md-9 col-12 invest">
+									<h2 id="invest">Инвестиционная привлекательность</h2>
+									<div class="row">
+										<div class="col-lg-4 col-sm-6 col-12">
+											<p>Стоимость квартиры, ₽</p>
+											<div class="invest-box">
+												<span class="invest-box-value" id='invest-value'>5 000 000</span>
+												<div class="invest-box-input" id='invest-input'></div>
+											</div>
+										</div>
+										<div class="col-lg-4 col-sm-6 col-12">
+											<p>Срок инвестиции, лет</p>
+											<div class="invest-btn">
+												<button class="active">1</button>
+												<button>2</button>
+												<button>3</button>
+												<button>4</button>
+											</div>
+										</div>
+									</div>
+									<div class="row d-flex flex-row align-items-center margin">
+										<div class="col-lg-6 col-md-8 col-12 d-none d-sm-flex flex-row">
+											<p>Примерная доходность: <br>Стоимость продажи:</p>
+											<p><b>15% </b><br><b class="invest-sale">37 369 153 рублей</b></p>
+										</div>
+										<div class="col-12 d-sm-none d-flex flex-column">
+											<p>Примерная доходность:</p>
+											<p><b>15% </b></p>
+											<p>Стоимость продажи:</p>
+											<p><b class="invest-sale">5 750 000 рублей</b></p>
+										</div>
+										<div class="col-lx-3 col-md-4 col-sm-6 col-12 dashed">
+											<p>Ожидаемая прибыль</p>
+											<p><b class="invest-profit">750 000 рублей</b></p>
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-sm-10 col-12">
+											<p>Наши эксперты наблюдают несколько ключевых факторов, указывающих на инвестиционную привлекательность покупки — готовы рассказать о каждом подробнее и помогут выбрать лучшую стратегию:</p>
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-md-4">
+											<p>Прибыль при сдаче недвижимости в аренду</p>
+										</div>
+										<div class="col-md-4">
+											<p>Прирост пассивного капитала из-за повышения цен на рынке недвижимости</p>
+										</div>
+										<div class="col-md-4">
+											<p>Значительный доход при успешной перепродаже объекта недвижимости</p>
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-4 d-none d-md-block">
+											<div class="line-bottom"></div>
+										</div>
+										<div class="col-4 d-none d-md-block">
+											<div class="line-bottom"></div>
+										</div>
+										<div class="col-md-4 col-12">
+											<div class="line-bottom"></div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
 
 					<section class="ten">
 						<div class="container">
-							<div class="row d-flex">
-								<div class="col-3 d-flex flex-column">
+							<div class="d-flex flex-column-reverse flex-md-row">
+								<div class="col-md-3 col-12 d-flex flex-md-column flex-row ten-logo">
 									<img src="./img/@1x/image 2.4.png" alt="">
 									<img src="./img/@1x/sber.png" alt="">
 									<img src="./img/@1x/image 3.5.png" alt="">
 									<img src="./img/@1x/image 4.3.png" alt="">
 								</div>
-								<div class="col-9">
-									<h2>Ипотека</h2>
+								<div class="col-md-9 col-12">
+									<h2 id="mortgage">Ипотека</h2>
 									<p>Проконсультируем, вместе с вами подберем наиболее выгодную и комфортную для вас программу ипотечного кредитования, поможем справиться с бумажной работой</p>
 									<div class="row mortgage">
-										<div class="col-4">
+										<div class="col-lg-4 col-sm-6 col-12">
 											<p>Стоимость квартиры, ₽</p>
 											<div class="invest-box">
-												<span class="invest-box-value">0</span>
-												<div class="invest-box-input"></div>
+												<span class="invest-box-value" id='mortgage-value'>5 000 000</span>
+												<div class="invest-box-input" id='mortgage-input'></div>
 											</div>
 										</div>
-										<div class="col-4">
+										<div class="col-lg-4 col-sm-6 col-12">
 											<p>Срок ипотеки, лет</p>
-											<div class="invest-btn">
-												<button>10</button>
+											<div class="mortgage-btn">
+												<button class="active">10</button>
 												<button>15</button>
 												<button>20</button>
 												<button>25</button>
 											</div>
 										</div>
-										<div class="col-4">
+										<div class="col-lg-4 col-12">
 											<p>Платеж в месяц</p>
-											<span class="mortgage_sum">244 000 рублей</span>
+											<span class="mortgage_sum">400 000 рублей</span>
 										</div>
 									</div>
 									<div class="row d-flex flex-row align-items-center">
-										<div class="col-4">
+										<div class="col-lg-4 col-sm-6 col-12">
 											<p>Первоначальный взнос 20%</p>
-											<h4>6 400 000 рублей</h4>
+											<h4 class="contribution-mortgage">1 000 000 рублей</h4>
 										</div>
-										<div class="col-4">
+										<div class="col-lg-4 col-sm-6 col-12">
 											<p>Ставка по ипотеке</p>
 											<h4>9%</h4>
 										</div>
 									</div>
 									<div class="row">
-										<div class="col-4 mb">
-											<a href="#" class="button">Одобрить ипотеку</a>
+										<div class="col-lg-4 col-sm-6 col-12 mb">
+											<a href="#" class="button popup-open" id="open-9">Одобрить ипотеку</a>
 										</div>
 									</div>
 									<div class="row">
 										<div class="col-12">
 											<h2>Хотите купить в рассрочку?</h2>
 										</div>
-										<div class="col-4">
-											<a href="#" class="button">Узнать условия рассрочки</a>
+										<div class="col-lg-4 col-sm-6 col-12">
+											<a href="#" class="button popup-open" id="open-10">Узнать условия рассрочки</a>
 										</div>
 									</div>
 								</div>
@@ -1283,15 +1795,27 @@
 					<section class="eleven">
 						<div class="container">
 							<div class="row d-flex justify-content-end">
-								<div class="col-9">
+								<div class="col-md-9 col-12">
 									<div class="row">
-										<div class="col">
+										<div class="col-12">
 											<h2>Документация</h2>
+										</div>
+										<div class="col-12">
+											<span class="swipe d-sm-none" id="swipe3"><img src="./img/_src/swipe.svg" alt=""></span>
+										</div>
+									</div>
+									<div class="row overflow-hidden d-sm-none">
+										<div class="eleven-link-wrapper">
+											<div class="eleven-link">
+												<a class="active" href="#">Сapital Towers</a>
+												<a href="#">Neva Towers</a>
+												<a href="#">Крылья</a>
+											</div>
 										</div>
 									</div>
 									<div class="row">
-										<div class="col-4 eleven-col">
-											<h4>Capital Towers</h4>
+										<div id='eleven-col-0' class="col-sm-4 col-12 eleven-col active">
+											<h4 class="d-none d-sm-block">Capital Towers</h4>
 											<p>Проектная декларация</p>
 											<div class="file-wrapp d-flex align-self-center">
 												<a href="#">PDF</a>
@@ -1313,8 +1837,8 @@
 												<span>0.3 KB</span>
 											</div>
 										</div>
-										<div class="col-4 eleven-col">
-											<h4>Neva Towers</h4>
+										<div id='eleven-col-1' class="col-sm-4 col-12 eleven-col">
+											<h4 class="d-none d-sm-block">Neva Towers</h4>
 											<p>Проектная декларация</p>
 											<div class="file-wrapp d-flex align-self-center">
 												<a href="#">PDF</a>
@@ -1336,8 +1860,8 @@
 												<span>0.3 KB</span>
 											</div>
 										</div>
-										<div class="col-4 eleven-col">
-											<h4>Крылья</h4>
+										<div id='eleven-col-2' class="col-sm-4 col-12 eleven-col">
+											<h4 class="d-none d-sm-block">Крылья</h4>
 											<p>Проектная декларация</p>
 											<div class="file-wrapp d-flex align-self-center">
 												<a href="#">PDF</a>
@@ -1368,7 +1892,7 @@
 					<footer>
 						<div class="container">
 							<div class="row">
-								<div class="col-3 footer-tel d-flex justify-content-center">
+								<div class="col-md-3 col-sm-6 col-12 footer-tel d-flex justify-content-sm-center">
 									<p>+7 499 647 59 99  <br>
 										<a href="#">info@willgrade.ru</a>
 									</p>
@@ -1395,12 +1919,271 @@
 							<span class="select-menu-selected">Комплекс</span>
 						</div>
 						<menu class="select-menu-items">
-							<li><a href="#">Capital Towers</a></li>
-							<li><a href="#">Neva Towers</a></li>
-							<li><a href="#">ЖК Крылья</a></li>
+							<li><a href="#link1">Capital Towers</a></li>
+							<li><a href="#link2">Neva Towers</a></li>
+							<li><a href="#link3">ЖК Крылья</a></li>
 						</menu>
 					</div>
 					<!-- select menu -->
+
+					<!-- popup -->
+					<!-- Скачать презентацию Capital Towers -->
+					<div class="popup-wrapper" id="popup-open-1">
+						<div class="popup-content">
+							<div class="btn-close"><img src="./img/@1x/Group 76.3.svg" alt=""></div>
+							<div class="container">
+								<div class="row">
+									<div class="col-sm-6 col-12 popup-text d-flex flex-column">
+										<h4>Скачайте презентацию Capital Towers и получите всю интересующую Вас информацию о данном комплексе </h4>
+										<input type="tel" placeholder="Ваш номер телефона" pattern="[\+]\d{1}\s[\(]\d{3}[\)]\s\d{3}[\-]\d{2}[\-]\d{2}" minlength="18" maxlength="18">
+										<button type='submit' class="button">Скачать презентацию</button>
+										<p>
+											Нажимая на кнопку, вы соглашаетесь с нашей <a href="https://willgrade.ru/confidential">Политикой конфиденциальности</a> и <a href="https://willgrade.ru/rules">условиями передачи информации</a>
+										</p>
+									</div>
+									<div class="col-6 d-none d-sm-flex">
+										<div class="popup-images">
+											<img src="./img/@1x/img-2-1.jpg" alt="">
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- Скачать презентацию Neva Towers -->
+					<div class="popup-wrapper" id="popup-open-2">
+						<div class="popup-content">
+							<div class="btn-close"><img src="./img/@1x/Group 76.3.svg" alt=""></div>
+							<div class="container">
+								<div class="row">
+									<div class="col-sm-6 col-12 popup-text d-flex flex-column">
+										<h4>Скачайте презентацию Neva Towers и получите всю интересующую Вас информацию о данном комплексе </h4>
+										<input type="tel" placeholder="Ваш номер телефона"  pattern="[\+]\d{1}\s[\(]\d{3}[\)]\s\d{3}[\-]\d{2}[\-]\d{2}" minlength="18" maxlength="18">
+										<button type='submit' class="button">Скачать презентацию</button>
+										<p>
+											Нажимая на кнопку, вы соглашаетесь с нашей <a href="https://willgrade.ru/confidential">Политикой конфиденциальности</a> и <a href="https://willgrade.ru/rules">условиями передачи информации</a>
+										</p>
+									</div>
+									<div class="col-6 d-none d-sm-flex">
+										<div class="popup-images">
+											<img src="./img/@1x/img-2-1.jpg" alt="">
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- Скачать презентацию Крылья -->
+					<div class="popup-wrapper" id="popup-open-3">
+						<div class="popup-content">
+							<div class="btn-close"><img src="./img/@1x/Group 76.3.svg" alt=""></div>
+							<div class="container">
+								<div class="row">
+									<div class="col-sm-6 col-12 popup-text d-flex flex-column">
+										<h4>Скачайте презентацию Крылья и получите всю интересующую Вас информацию о данном комплексе </h4>
+										<input type="tel" placeholder="Ваш номер телефона"  pattern="[\+]\d{1}\s[\(]\d{3}[\)]\s\d{3}[\-]\d{2}[\-]\d{2}" minlength="18" maxlength="18">
+										<button type='submit' class="button">Скачать презентацию</button>
+										<p>
+											Нажимая на кнопку, вы соглашаетесь с нашей <a href="https://willgrade.ru/confidential">Политикой конфиденциальности</a> и <a href="https://willgrade.ru/rules">условиями передачи информации</a>
+										</p>
+									</div>
+									<div class="col-6 d-none d-sm-flex">
+										<div class="popup-images">
+											<img src="./img/@1x/img-2-1.jpg" alt="">
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- Заказать поездку -->
+					<div class="popup-wrapper" id="popup-open-4">
+						<div class="popup-content">
+							<div class="btn-close"><img src="./img/@1x/Group 76.3.svg" alt=""></div>
+							<div class="container">
+								<div class="row">
+									<div class="col-12 popup-text">
+										<h4>Благодарим за Ваш заказ. Менеджер свяжется с Вами и уточнит удобную дату, время и место подачи.</h4>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- Получите актуальные планировки  -->
+					<div class="popup-wrapper" id="popup-open-5">
+						<div class="popup-content">
+							<div class="btn-close"><img src="./img/@1x/Group 76.3.svg" alt=""></div>
+							<div class="container">
+								<div class="row">
+									<div class="col-sm-6 col-12 popup-text d-flex flex-column">
+										<h4>Оставьте свои контактные данные и мы напрвим интересующие Вас планировки</h4>
+										<input type="tel" placeholder="Ваш номер телефона"  pattern="[\+]\d{1}\s[\(]\d{3}[\)]\s\d{3}[\-]\d{2}[\-]\d{2}" minlength="18" maxlength="18">
+										<button type='submit' class="button popup-open" id='open-6'>Отправить</button>
+										<p>
+											Нажимая на кнопку, вы соглашаетесь с нашей <a href="https://willgrade.ru/confidential">Политикой конфиденциальности</a> и <a href="https://willgrade.ru/rules">условиями передачи информации</a>
+										</p>
+									</div>
+									<div class="col-6 d-none d-sm-flex">
+										<div class="popup-images">
+											<img src="./img/@1x/img-2-1.jpg" alt="">
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="popup-wrapper" id="popup-open-6">
+						<div class="popup-content">
+							<div class="btn-close"><img src="./img/@1x/Group 76.3.svg" alt=""></div>
+							<div class="container">
+								<div class="row">
+									<div class="col-12 popup-text">
+										<h4>Благодарим за ваш запрос! Наш менеджер свяжется с Вами в самое ближайшее время</h4>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- Инвестиционная привлекательность  -->
+					<div class="popup-wrapper" id="popup-open-7">
+						<div class="popup-content">
+							<div class="btn-close"><img src="./img/@1x/Group 76.3.svg" alt=""></div>
+							<div class="container">
+								<div class="row">
+									<div class="col-sm-6 col-12 popup-text d-flex flex-column">
+										<h4>Оставьте заявку и станьте собственником высокорентабельного объекта недвижимости в Москве!</h4>
+										<input type="tel" placeholder="Ваш номер телефона"  pattern="[\+]\d{1}\s[\(]\d{3}[\)]\s\d{3}[\-]\d{2}[\-]\d{2}" minlength="18" maxlength="18">
+										<button type='submit' class="button popup-open" id='open-8'>Отправить</button>
+										<p>
+											Нажимая на кнопку, вы соглашаетесь с нашей <a href="https://willgrade.ru/confidential">Политикой конфиденциальности</a> и <a href="https://willgrade.ru/rules">условиями передачи информации</a>
+										</p>
+									</div>
+									<div class="col-6 d-none d-sm-flex">
+										<div class="popup-images">
+											<img src="./img/@1x/img-2-1.jpg" alt="">
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="popup-wrapper" id="popup-open-8">
+						<div class="popup-content">
+							<div class="btn-close"><img src="./img/@1x/Group 76.3.svg" alt=""></div>
+							<div class="container">
+								<div class="row">
+									<div class="col-12 popup-text">
+										<h4>Благодарим Вас за заявку! Менеджер свяжется с Вами в самое ближайшее время</h4>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- Ипотека -->
+					<div class="popup-wrapper" id="popup-open-9">
+						<div class="popup-content">
+							<div class="btn-close"><img src="./img/@1x/Group 76.3.svg" alt=""></div>
+							<div class="container">
+								<div class="row">
+									<div class="col-sm-6 col-12 popup-text d-flex flex-column">
+										<h4>Оставьте свои контактные данные и получите бесплантную консультацию по вопросу оформления ипотеки в этом комплексе</h4>
+										<input type="tel" placeholder="Ваш номер телефона"  pattern="[\+]\d{1}\s[\(]\d{3}[\)]\s\d{3}[\-]\d{2}[\-]\d{2}" minlength="18" maxlength="18">
+										<button type='submit' class="button popup-open" id='open-6'>Отправить</button>
+										<p>
+											Нажимая на кнопку, вы соглашаетесь с нашей <a href="https://willgrade.ru/confidential">Политикой конфиденциальности</a> и <a href="https://willgrade.ru/rules">условиями передачи информации</a>
+										</p>
+									</div>
+									<div class="col-6 d-none d-sm-flex">
+										<div class="popup-images">
+											<img src="./img/@1x/img-2-1.jpg" alt="">
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- Рассрочка -->
+					<div class="popup-wrapper" id="popup-open-10">
+						<div class="popup-content">
+							<div class="btn-close"><img src="./img/@1x/Group 76.3.svg" alt=""></div>
+							<div class="container">
+								<div class="row">
+									<div class="col-sm-6 col-12 popup-text d-flex flex-column">
+										<h4>Оставьте свои контактные данные и получите бесплантную консультацию по условиям рассрочки в интересующем Вас комплексе</h4>
+										<input type="tel" placeholder="Ваш номер телефона"  pattern="[\+]\d{1}\s[\(]\d{3}[\)]\s\d{3}[\-]\d{2}[\-]\d{2}" minlength="18" maxlength="18">
+										<button type='submit' class="button popup-open" id='open-6'>Отправить</button>
+										<p>
+											Нажимая на кнопку, вы соглашаетесь с нашей <a href="https://willgrade.ru/confidential">Политикой конфиденциальности</a> и <a href="https://willgrade.ru/rules">условиями передачи информации</a>
+										</p>
+									</div>
+									<div class="col-6 d-none d-sm-flex">
+										<div class="popup-images">
+											<img src="./img/@1x/img-2-1.jpg" alt="">
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- Хотите узнать о закрытых продажах? -->
+					<div class="popup-wrapper" id="popup-open-11">
+						<div class="popup-content">
+							<div class="btn-close"><img src="./img/@1x/Group 76.3.svg" alt=""></div>
+							<div class="container">
+								<div class="row">
+									<div class="col-sm-6 col-12 popup-text d-flex flex-column">
+										<h4>Оставьте свои контактные данные и получите информацию о самых выгодных предложениях и закрытых лотах</h4>
+										<input type="tel" placeholder="Ваш номер телефона" pattern="[\+]\d{1}\s[\(]\d{3}[\)]\s\d{3}[\-]\d{2}[\-]\d{2}" minlength="18" maxlength="18">
+										<button type='submit' class="button popup-open" id='open-6'>Отправить</button>
+										<p>
+											Нажимая на кнопку, вы соглашаетесь с нашей <a href="https://willgrade.ru/confidential">Политикой конфиденциальности</a> и <a href="https://willgrade.ru/rules">условиями передачи информации</a>
+										</p>
+									</div>
+									<div class="col-6 d-none d-sm-flex">
+										<div class="popup-images">
+											<img src="./img/@1x/img-2-1.jpg" alt="">
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- Обратный звонок -->
+					<div class="popup-wrapper" id="popup-open-12">
+						<div class="popup-content">
+							<div class="btn-close"><img src="./img/@1x/Group 76.3.svg" alt=""></div>
+							<div class="container">
+								<div class="row">
+									<div class="col-sm-6 col-12 popup-text d-flex flex-column">
+										<h4>Закажите обратный звонок и получите бесплатную консультацию от нашего специалиста</h4>
+										<input type="tel" placeholder="Ваш номер телефона" pattern="[\+]\d{1}\s[\(]\d{3}[\)]\s\d{3}[\-]\d{2}[\-]\d{2}" minlength="18" maxlength="18">
+										<button type='submit' class="button popup-open" id='open-13'>Отправить</button>
+										<p>
+											Нажимая на кнопку, вы соглашаетесь с нашей <a href="https://willgrade.ru/confidential">Политикой конфиденциальности</a> и <a href="https://willgrade.ru/rules">условиями передачи информации</a>
+										</p>
+									</div>
+									<div class="col-6 d-none d-sm-flex">
+										<div class="popup-images">
+											<img src="./img/@1x/img-2-1.jpg" alt="">
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="popup-wrapper" id="popup-open-13">
+						<div class="popup-content">
+							<div class="btn-close"><img src="./img/@1x/Group 76.3.svg" alt=""></div>
+							<div class="container">
+								<div class="row">
+									<div class="col-12 popup-text">
+										<h4>Благодарим Вас за заявку! Наш менеджер свяжется с Вами в первую освободившуюся минуту</h4>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- popup -->
 
 
 					<script src="js/scripts.min.js"></script>
@@ -1410,6 +2193,21 @@
 					</script>
 					<script src="https://api-maps.yandex.ru/2.1/?apikey=23c738de-f8f3-46d6-bf2c-fe4087e4a0ce&lang=ru_RU" type="text/javascript">
 					</script>
+					 <!-- Yandex.Metrika counter -->
+					<script type="text/javascript" >
+					(function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+					m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+					(window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+					ym(54349285, "init", {
+						clickmap:true,
+						trackLinks:true,
+						accurateTrackBounce:true,
+						webvisor:true
+					});
+				</script>
+				<noscript><div><img src="https://mc.yandex.ru/watch/54349285" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+				<!-- /Yandex.Metrika counter -->
 
 				</body>
 				</html>
